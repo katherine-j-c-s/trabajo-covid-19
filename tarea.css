@@ -4,13 +4,13 @@
     height: 1155px;
     margin-left: 300px;
     margin-top: 200px;
-    background-color: rgba(172, 50, 50, 0.61);
+    background: #E5E5E5;
 }
 .pagina {
     position: relative;
     width: 1920px;
     height: 8133px;
-    background-color: rgb(241, 158, 172);
+    background: #FFFFFF;
     text-align: justify;
     margin: auto;
  }   
@@ -47,30 +47,69 @@
     text-transform: uppercase;
     color: #035755;
 }
-.obciones {
+.obciones{
     position: absolute;
-    width: 500px;
-    height: 22px;
-    left: 1034px;
-    right: 433px;
+    width: 574px;
+    height: 70px;
+    left: 913px;
     top: 52px;
+}
+.Overview {
+    position: absolute;
+    width: 100px;
+    height: 28px;
+    left: 0px;
     font-family: 'Baloo Tamma 2', cursive;
-    font-size: 22px;
-    line-height: 22px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FB4C47;
+}
+.Contagion {
+    position: absolute;
+    width: 100px;
+    height: 28px;
+    right: 330.5px;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 18px;
+    line-height: 28px;
+    color: #00402E;
+}
+.Symptoms {
+    position: absolute;
+    width: 100px;
+    height: 28px;
+    left: 287px;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 18px;
+    line-height: 28px;
+    color: #00402E;
+}
+.prevetion {
+    position: absolute;
+    width: 100px;
+    height: 28px;
+    left: 430.5px;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 18px;
+    line-height: 28px;
+    color: #00402E;
 }
 .button1 {
     position: absolute;
     width: 154px;
-    height: 50px;
+    height: 55px;
     left: 1527px;
-    top: 52px;
-    font-family: 'Baloo Tamma 2', cursive;
-    font-size: 22px;
-    border: 2px solid #000000;
-    background: #fa5e59;
-    font-weight: bold;
+    top: 36px;
+    border: 2px solid #FB4C47;
     box-sizing: border-box;
     border-radius: 46px;
+}
+.contac {
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 22px;  
+    color: #FF383D;
+    top: 16px;
+    left: 45px;
 }
 .text {
     position: absolute;
@@ -481,4 +520,866 @@
     height: 134.03px;
     top: 740px;
     transform: rotate(-21.24deg);
+}
+.rectangulo5 {
+    position: absolute;
+    width: 2209px;
+    height: 2651.88px;
+    left: -136px;
+    top: 4057px;
+}
+.heading {
+    position: absolute;
+    width: 650px;
+    height: 209px;
+    left: 771px;
+}
+.covid19-what-should-we-do {
+    position: absolute;
+    width: 473px;
+    height: 107px;
+    left: 89px;
+}
+.titulorosa5 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 124%;
+    text-align: center;
+    color: #FA5652;
+}
+.titulo5 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 124%;
+    text-align: center;
+}
+.info5 {
+    position: absolute;
+    width: 650px;
+    height: 71px;
+    top: 138px;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 18px;
+    line-height: 215%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #4B4F51;
+}
+.grupo1 {
+    position: absolute;
+    width: 1352.65px;
+    height: 574.98px;
+    left: 379px;
+    top: 281px;
+}
+.niñaconmascara {
+    position: absolute;
+    width: 555.65px;
+    height: 574.98px;
+    left: 804px;
+}
+.infomasks {
+    position: absolute;
+    width: 647px;
+    height: 252px;
+    top: 166.98px;
+}
+.numero1 {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+}
+.num1 {
+    position: absolute;
+    width: 50px;
+    height: 51px;
+    left: 13px;
+    top: -20px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 145%;
+    text-transform: capitalize;
+    color: #FA5652;
+}
+.circulo1 {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background: #FA5652;
+    opacity: 0.15;
+    border-radius: 100%;
+}
+.tituloNum1 {
+    position: absolute;
+    width: 352px;
+    height: 69px;
+    top: 3px;
+    left: 115px;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 500;
+    font-size: 47px;
+    line-height: 147%;
+    text-transform: capitalize;
+    color: #035755;
+}
+.infoNum1 {
+    position: absolute;
+    width: 532px;
+    height: 160px;
+    left: 115px;
+    top: 92px;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 18px;
+    line-height: 221%;
+    text-transform: capitalize;
+    color: #4B4F51;
+}
+.grupo2 {
+    position: absolute;
+    width: 1324px;
+    height: 584.89px;
+    left: 379px;
+    top: 840px;
+}
+.niñalavandoselasmanos {
+    position: absolute;
+    width: 564.88px;
+    height: 584.89px;
+}
+.infowash {
+    position: absolute;
+    width: 611px;
+    height: 275.89px;
+    top: 155px;
+    left: 713px;
+}
+.numero2 {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+}
+.num2 {
+    position: absolute;
+    width: 50px;
+    height: 51px;
+    left: 9px;
+    top: -20px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 145%;
+    text-transform: capitalize;
+    color: #FA5652;
+}
+.circulo2 {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background: #FA5652;
+    opacity: 0.15;
+    border-radius: 100%;
+}
+.tituloNum2 {
+    position: absolute;
+    width: 389px;
+    height: 54px;
+    top: 3px;
+    left: 123px;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 500;
+    font-size: 47px;
+    line-height: 147%;
+    text-transform: capitalize;
+    color: #035755;
+}
+.infoNum2 {
+    position: absolute;
+    width: 488px;
+    height: 187px;
+    left: 123px;
+    top: 88.89px;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 18px;
+    line-height: 221%;
+    text-transform: capitalize;
+    color: #4B4F51;
+}
+.grupo3 {
+    position: absolute;
+    width: 1441.67px;
+    height: 567px;
+    left: 380px;
+    top: 1410px;
+}
+.niñausandopañoelo {
+    position: absolute;
+    width: 573.21px;
+    height: 567px;
+    left: 876.37px;
+}
+.infopañuelo {
+    position: absolute;
+    width: 652px;
+    height: 252px;
+    top: 158px;
+}
+.numero3 {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+}
+.num3 {
+    position: absolute;
+    width: 63px;
+    height: 48px;
+    left: 7px;
+    top: -20px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 145%;
+    text-transform: capitalize;
+    color: #FA5652;
+}
+.circulo3 {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background: #FA5652;
+    opacity: 0.15;
+    border-radius: 100%;
+}
+.tituloNum3 {
+    position: absolute;
+    width: 360px;
+    height: 52px;
+    top: 3px;
+    left: 120px;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 500;
+    font-size: 47px;
+    line-height: 147%;
+    text-transform: capitalize;
+    color: #035755;
+}
+.infoNum3 {
+    position: absolute;
+    width: 532px;
+    height: 161px;
+    left: 120px;
+    top: 91px;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 18px;
+    line-height: 221%;
+    text-transform: capitalize;
+    color: #4B4F51;
+}
+.grupo4 {
+    position: absolute;
+    width: 1358px;
+    height: 689.88px;
+    left: 366.14px;
+    top: 1962px;
+}
+.niñaevadiendocontacto {
+    position: absolute;
+    width: 656.79px;
+    height: 689.88px;
+}
+.infoavoid-contact {
+    position: absolute;
+    width: 611px;
+    height: 275.89px;
+    top: 218px;
+    left: 713px;
+}
+.numero4 {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+}
+.num4 {
+    position: absolute;
+    width: 66px;
+    height: 65px;
+    left: 5.4px;
+    top: -20px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 145%;
+    text-transform: capitalize;
+    color: #FA5652;
+}
+.circulo4 {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background: #FA5652;
+    opacity: 0.15;
+    border-radius: 100%;
+}
+.tituloNum4 {
+    position: absolute;
+    width: 389px;
+    height: 50px;
+    top: 3px;
+    left: 113px;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 500;
+    font-size: 47px;
+    line-height: 147%;
+    text-transform: capitalize;
+    color: #035755;
+}
+.infoNum4 {
+    position: absolute;
+    width: 488px;
+    height: 187px;
+    left: 113px;
+    top: 94.76px;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 18px;
+    line-height: 221%;
+    text-transform: capitalize;
+    color: #4B4F51;
+}
+.virusrectangulo5 {
+    position: absolute;
+    width: 2209px;
+    height: 1833px;
+    top: 620px;
+}
+.virusverduso {
+    position: absolute;
+    top: 1362px;
+    left: 1896px;
+}
+.virusrosadusomedio{
+    position: absolute;
+    top: 0px;
+    left: 131px;
+}
+.virusuverdusomedio {
+    position: absolute;
+    top: 1509px;
+    left: 1894px;
+}
+.rectangulo6 {
+    position: absolute;
+    width: 1912.67px;
+    height: 1284.88px;
+    left: 183.92px;
+    top: 6717px;
+}
+.liverReports {
+    position: absolute;
+    width: 1483px;
+    height: 635px;
+    left: 58.8px;
+}
+.reporte {
+    position: absolute;
+    width: 504px;
+    height: 635px;
+    left: 1037.08px;
+    top: 54px;
+}
+.grupodepaises {
+    position: absolute;
+    width: 394px;
+    height: 529px;
+    left: 55px;
+    top: 54px;
+}
+.LasFlechitas {
+    position: absolute;
+    width: 86px;
+    height: 48.95px;
+    left: 307px;
+    top: 9px;
+}
+.linea {
+    position: absolute;
+    width: 19.58px;
+    height: 0px;
+    left: 30.34px;
+    top: 20.55px;
+    border: 2.23px solid #DEE1ED;
+    transform: rotate(90deg);
+}
+.vectorD {
+    position: absolute;
+    width: 7.34px;
+    height: 14.69px;
+    left: 62.18px;
+    top: 17.07px;
+}
+.vectorI {
+    position: absolute;
+    width: 7.34px;
+    height: 14.69px;
+    left: 15.88px;
+    top: 17.2px;
+}
+.titulodelreporte {
+    position: absolute;
+    width: 256px;
+    height: 58px;
+    top: -30px;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 58px;
+    color: #035755;
+}
+.paises1 {
+    position: absolute;
+    width: 393px;
+    height: 37px;
+    top: 492px;
+}
+.triangulo1 {
+    position: absolute;
+    width: 23px;
+    height: 13.8px;
+    left: 370px;
+    top: 12px;
+}
+.numeros1 {
+    position: absolute;
+    width: 70px;
+    height: 29px;
+    left: 279px;
+    top: -15px;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+    color: #035755;
+}
+.bandera1 {
+    position: absolute;
+    width: 49px;
+    height: 35px;
+}
+.pais1 {
+    position: absolute;
+    width: 53px;
+    height: 37px;
+    left: 76px;
+    top: -25px;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 37px;
+    color: #13615F;
+}
+.paises2 {
+    position: absolute;
+    width: 393px;
+    height: 37px;
+    top: 416px;
+}
+.triangulo2 {
+    position: absolute;
+    width: 23px;
+    height: 13.8px;
+    left: 370px;
+    top: 12px;
+}
+.numeros2 {
+    position: absolute;
+    width: 70px;
+    height: 29px;
+    left: 279px;
+    top: -15px;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+    color: #035755;
+}
+.bandera2 {
+    position: absolute;
+    width: 49px;
+    height: 35px;
+}
+.pais2 {
+    position: absolute;
+    width: 53px;
+    height: 37px;
+    left: 76px;
+    top: -25px;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 37px;
+    color: #13615F;
+}
+.paises3 {
+    position: absolute;
+    width: 393px;
+    height: 37px;
+    top: 340px;
+}
+.triangulo3 {
+    position: absolute;
+    width: 23px;
+    height: 13.8px;
+    left: 370px;
+    top: 12px;
+}
+.numeros3 {
+    position: absolute;
+    width: 70px;
+    height: 29px;
+    left: 279px;
+    top: -15px;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+    color: #035755;
+}
+.bandera3 {
+    position: absolute;
+    width: 49px;
+    height: 35px;
+}
+.pais3 {
+    position: absolute;
+    width: 53px;
+    height: 37px;
+    left: 76px;
+    top: -25px;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 37px;
+    color: #13615F;
+}
+.paises4 {
+    position: absolute;
+    width: 393px;
+    height: 37px;
+    top: 112px;
+}
+.triangulo4 {
+    position: absolute;
+    width: 23px;
+    height: 13.8px;
+    left: 370px;
+    top: 12px;
+}
+.numeros4 {
+    position: absolute;
+    width: 70px;
+    height: 29px;
+    left: 279px;
+    top: -15px;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+    color: #035755;
+}
+.bandera4 {
+    position: absolute;
+    width: 49px;
+    height: 35px;
+}
+.pais4 {
+    position: absolute;
+    width: 53px;
+    height: 37px;
+    left: 76px;
+    top: -25px;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 37px;
+    color: #13615F;
+}
+.paises5 {
+    position: absolute;
+    width: 393px;
+    height: 37px;
+    top: 188px;
+}
+.triangulo5 {
+    position: absolute;
+    width: 23px;
+    height: 13.8px;
+    left: 370px;
+    top: 12px;
+}
+.numeros5 {
+    position: absolute;
+    width: 70px;
+    height: 29px;
+    left: 279px;
+    top: -15px;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+    color: #035755;
+}
+.bandera5 {
+    position: absolute;
+    width: 49px;
+    height: 35px;
+}
+.pais5 {
+    position: absolute;
+    width: 53px;
+    height: 37px;
+    left: 76px;
+    top: -25px;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 37px;
+    color: #13615F;
+}
+.paises6 {
+    position: absolute;
+    width: 393px;
+    height: 37px;
+    top: 264px;
+}
+.triangulo6 {
+    position: absolute;
+    width: 23px;
+    height: 13.8px;
+    left: 370px;
+    top: 12px;
+}
+.numeros6 {
+    position: absolute;
+    width: 70px;
+    height: 29px;
+    left: 279px;
+    top: -15px;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+    color: #035755;
+}
+.bandera6 {
+    position: absolute;
+    width: 49px;
+    height: 35px;
+}
+.pais6 {
+    position: absolute;
+    width: 53px;
+    height: 37px;
+    left: 76px;
+    top: -25px;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 37px;
+    color: #13615F;
+}
+
+.RectanguleDeLupayOtros {
+    position: absolute;
+    width: 943px;
+    height: 223px;
+}
+.Lupa {
+    position: absolute;
+    left: 867px;
+    background: #FFFFFF;
+    box-shadow: 0px 7px 76px rgba(146, 53, 46, 0.18);
+    border-radius: 4.16667px;
+}
+.Otros {
+    position: absolute;
+    left: -50px;
+    top: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 50px rgba(104, 33, 28, 0.1);
+    border-radius: 5px;
+}
+.MapaMayor {
+    position: absolute;
+    width: 1347.37px;
+    height: 569.99px;
+    top: 125px;
+}
+.Maskgroup {
+    position: absolute;
+    width: 997.08px;
+    height: 569.99px;
+}
+.virus-transparente1 {
+    position: absolute;
+    width: 154.2px;
+    height: 150.38px;
+    left: 1207.08px;
+    top: 823px;
+}
+.virus-transparente2 {
+    position: absolute;
+    width: 373.83px;
+    height: 383.32px;
+    left: 1364.17px;
+    top: 897px;
+}
+.rectangulo7 {
+    position: absolute;
+    width: 790px;
+    height: 321px;
+    left: 565px;
+    top: 7501px;
+}
+.sucribete {
+    position: absolute;
+    left: 65px;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+    color: #0C6C44;
+
+}
+.buttom {
+    position: absolute;
+    width: 790px;
+    height: 114px;
+    top: 207px;
+}
+.rectangulobuttom {
+    position: absolute;
+    width: 209px;
+    height: 78px;
+    left: 564px;
+    top: 18px;
+}
+.buttomtext {
+    position: absolute;
+    left: 81px;
+    top: 26px;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.rectangulobuttom2 {
+    position: absolute;
+    top: 18px;
+    background: #F44A45;
+    border-radius: 157px;
+}
+.rectagulogmail {
+    position: absolute;
+    width: 790px;
+    height: 114px;
+}
+.gmail {
+    position: absolute;
+    left: 41px;
+    top: 44px;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 22px;
+    line-height: 26px;
+    color: #758681;
+}
+.rectangulo8{
+    position: absolute;
+    width: 1444.21px;
+    height: 144px;
+    left: 240.16px;
+    top: 7965px;
+}
+.logo2 {
+    position: absolute;
+    width: 220.84px;
+    height: 72.91px;
+}
+.paginaswebs {
+    position: absolute;
+    left: 1231.84px;
+    top: 21px;
+}
+.centro {
+    position: absolute;
+    width: 574px;
+    height: 123px;
+    left: 433.84px;
+    top: 21px;
+}
+.el2020 {
+    position: absolute;
+    width: 574px;
+    height: 28px;
+    left: 76px;
+    top: 95px;
+    margin: 0px;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 23px;
+    line-height: 28px;
+    color: #415E56;
+}
+.obciones2{
+    position: absolute;
+    width: 574px;
+    height: 28px;
+}
+.Overview2 {
+    position: absolute;
+    width: 100px;
+    height: 28px;
+    left: 0px;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 23px;
+    line-height: 28px;
+    color: #00402E;
+}
+.Symptoms2 {
+    position: absolute;
+    width: 100px;
+    height: 28px;
+    right: 330.5px;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 23px;
+    line-height: 28px;
+    color: #00402E;
+}
+.Prevention {
+    position: absolute;
+    width: 100px;
+    height: 28px;
+    left: 287px;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 23px;
+    line-height: 28px;
+    color: #00402E;
+}
+.Treatment {
+    position: absolute;
+    width: 100px;
+    height: 28px;
+    left: 430.5px;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 23px;
+    line-height: 28px;
+    color: #00402E;
 }
