@@ -1295,7 +1295,7 @@
   color: #758681;
 }
 .rectangulo8 {
-  position: absolute; /* revisar el uso excesivo de position absolute */
+  position: absolute; /* tampoco se puede el absolute en este */
   width: 1444.21px;
   height: 144px;
   left: 240.16px;
