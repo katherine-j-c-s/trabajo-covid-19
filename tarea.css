@@ -13,11 +13,9 @@
   margin: auto;
 }
 .rectangulo1 {
-  position: absolute; /* revisar el uso excesivo de position absolute */
+  position: relative; /* revisar el uso excesivo de position absolute */
   width: 1920px;
   height: 1061px;
-  left: 0px;
-  top: 0px;
 }
 .logo {
   position: absolute; /* revisar el uso excesivo de position absolute */
@@ -162,10 +160,10 @@
   top: 147px;
 }
 .rectangulo2 {
-  position: absolute; /* revisar el uso excesivo de position absolute */
+  position: relative; /* revisar el uso excesivo de position absolute */
   height: 974.25px;
   width: 2254.93px;
-  top: 907.75px;
+  top: 20px;
   left: -138.41px;
 }
 .portada2 {
@@ -235,11 +233,11 @@
   top: 35.14%;
 }
 .rectangulo3 {
-  position: absolute; /* revisar el uso excesivo de position absolute */
+  position: relative; /* revisar el uso excesivo de position absolute */
   width: 1580px;
   height: 896px;
   left: 100px;
-  top: 1796px;
+  top: 20px;
 }
 .contagion {
   position: absolute; /* revisar el uso excesivo de position absolute */
@@ -454,11 +452,11 @@
   transform: matrix(1, 0, 0, -1, 0, 0);
 }
 .rectangulo4 {
-  position: absolute; /* revisar el uso excesivo de position absolute */
+  position: relative; /* revisar el uso excesivo de position absolute */
   width: 1791.06px;
   height: 1099.34px;
   left: 91px;
-  top: 2840px;
+  top: 20px;
 }
 .covid-19-simptomps {
   position: absolute; /* revisar el uso excesivo de position absolute */
@@ -517,11 +515,11 @@
   transform: rotate(-21.24deg);
 }
 .rectangulo5 {
-  position: absolute; /* revisar el uso excesivo de position absolute */
+  position: relative; /* revisar el uso excesivo de position absolute */
   width: 2209px;
   height: 2651.88px;
   left: -136px;
-  top: 4057px;
+  top: 20px;
 }
 .heading {
   position: absolute; /* revisar el uso excesivo de position absolute */
@@ -865,11 +863,11 @@
   left: 1894px;
 }
 .rectangulo6 {
-  position: absolute; /* revisar el uso excesivo de position absolute */
+  position: relative; /* revisar el uso excesivo de position absolute */
   width: 1912.67px;
   height: 1284.88px;
   left: 183.92px;
-  top: 6717px;
+  top: 20px;
 }
 .liverReports {
   position: absolute; /* revisar el uso excesivo de position absolute */
