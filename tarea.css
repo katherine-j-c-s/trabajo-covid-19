@@ -1,8 +1,7 @@
 .fondo {
   width: 2188px;
   height: 1155px;
-  margin-left: 300px; /* por que se coloca este margin? */
-  margin-top: 200px; /* por que se coloca este margin? */
+  margin: auto;
   background: #e5e5e5;
 }
 .pagina {
