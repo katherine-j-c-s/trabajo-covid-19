@@ -13,7 +13,7 @@
   margin: auto;
 }
 .rectangulo1 {
-  position: relative; /* revisar el uso excesivo de position absolute */
+  position: relative;
   width: 1920px;
   height: 1061px;
 }
@@ -160,7 +160,7 @@
   top: 147px;
 }
 .rectangulo2 {
-  position: relative; /* revisar el uso excesivo de position absolute */
+  position: relative;
   height: 974.25px;
   width: 2254.93px;
   top: 20px;
@@ -233,7 +233,7 @@
   top: 35.14%;
 }
 .rectangulo3 {
-  position: relative; /* revisar el uso excesivo de position absolute */
+  position: relative;
   width: 1580px;
   height: 896px;
   left: 100px;
@@ -452,7 +452,7 @@
   transform: matrix(1, 0, 0, -1, 0, 0);
 }
 .rectangulo4 {
-  position: relative; /* revisar el uso excesivo de position absolute */
+  position: relative;
   width: 1791.06px;
   height: 1099.34px;
   left: 91px;
@@ -515,7 +515,7 @@
   transform: rotate(-21.24deg);
 }
 .rectangulo5 {
-  position: relative; /* revisar el uso excesivo de position absolute */
+  position: relative;
   width: 2209px;
   height: 2651.88px;
   left: -136px;
@@ -863,7 +863,7 @@
   left: 1894px;
 }
 .rectangulo6 {
-  position: relative; /* revisar el uso excesivo de position absolute */
+  position: relative;
   width: 1912.67px;
   height: 1284.88px;
   left: 183.92px;
