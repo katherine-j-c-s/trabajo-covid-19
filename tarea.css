@@ -1235,7 +1235,7 @@
   top: 897px;
 }
 .rectangulo7 {
-  position: absolute; /* revisar el uso excesivo de position absolute */
+  position: absolute; /* no pudo cambiar absolute ,queda mal ya que queda dentro del rectangulo6 */
   width: 790px;
   height: 321px;
   left: 565px;
