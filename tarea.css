@@ -1229,19 +1229,25 @@ header {
 }
 .footerContainer {
   margin: 50px 230px;
-  display: flex;
-  justify-content: space-between;
+  position: relative;
 }
 .logo2 {
   display: inline-block;
 }
 .paginaswebs {
   height: 29px;
-  align-self: center;
+  position: relative;
+  top: 50%;
+}
+.imageContainer {
+  float: right;
+  height: 130px;
 }
 .centro {
   display: inline-block;
-  align-self: center;
+  position: absolute;
+  left: 25%;
+  top: 50%;
 }
 .copyright {
   margin: 0px;
