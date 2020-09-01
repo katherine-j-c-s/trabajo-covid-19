@@ -114,6 +114,7 @@ header {
   display: inline-block;
 }
 .portada2 {
+  padding-bottom: 30px;
   width: 288px;
   height: 107px;
   line-height: 124%;
@@ -133,7 +134,7 @@ header {
 .info2 {
   width: 648px;
   height: 200px;
-  /*padding: 20px 0px 80px 800px;*/
+  padding-bottom: 150px;
   font-family: 'Baloo Tamma 2', cursive;
   font-size: 20px;
   line-height: 215%;
