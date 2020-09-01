@@ -18,6 +18,8 @@ header {
 }
 .logo {
   display: inline-block;
+  position: relative;
+  width: 30%;
 }
 .virus {
   height: 63px;
@@ -27,13 +29,14 @@ header {
 .covid-19 {
   /* width: 112px; */
   /* height: 23px; */
+  position: absolute;
+  top: 50%;
   font-family: 'Red Hat Display', sans-serif;
   font-weight: bold;
   font-size: 19px;
   text-transform: uppercase;
   color: #035755;
   display: inline-block;
-  margin: auto;
 }
 .optionsContainer {
   /* display: inline-block; */
@@ -105,11 +108,13 @@ header {
 .rectangulo2 {
   height: 974.25px;
   width: 2254.93px;
+  margin: auto;
 }
 .portada2 {
   width: 288px;
   height: 107px;
   line-height: 124%;
+  padding-left: 256.5px;
 }
 .titulorosa2 {
   font-family: 'Red Hat Display', sans-serif;
