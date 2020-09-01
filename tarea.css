@@ -27,8 +27,6 @@ header {
   padding-right: 10px;
 }
 .covid-19 {
-  /* width: 112px; */
-  /* height: 23px; */
   position: absolute;
   top: 50%;
   font-family: 'Red Hat Display', sans-serif;
@@ -39,7 +37,6 @@ header {
   display: inline-block;
 }
 .optionsContainer {
-  /* display: inline-block; */
   float: right;
 }
 .option {
@@ -128,11 +125,8 @@ header {
   font-size: 50px;
 }
 .info2 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
   width: 648px;
   height: 200px;
-  /* left: 1033px; */
-  /* top: 330px; */
   padding: 20px 0px 80px 800px;
   font-family: 'Baloo Tamma 2', cursive;
   font-size: 20px;
@@ -141,11 +135,8 @@ header {
   color: #4b4f51;
 }
 .button3 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
   width: 200px;
   height: 65px;
-  /* left: 1033px; */
-  /* top: 700px; */
   background: rgba(250, 86, 82, 0.15);
   border-radius: 65px;
   margin-left: 800px;
