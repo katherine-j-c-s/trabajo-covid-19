@@ -1,11 +1,9 @@
 body {
   margin: 0px;
 }
-
 header {
-  padding: 36px 239px 36px 239px;
+  padding: 36px 228px 36px 150px;
 }
-
 .fondo {
 }
 .pagina {
@@ -14,7 +12,7 @@ header {
   margin: auto;
 }
 .rectangulo1 {
-  padding-left: 243px;
+  padding-left: 150px;
 }
 .logo {
   display: inline-block;
@@ -28,7 +26,7 @@ header {
 }
 .covid-19 {
   position: absolute;
-  top: 50%;
+  top: 5%;
   font-family: 'Red Hat Display', sans-serif;
   font-weight: bold;
   font-size: 19px;
@@ -61,12 +59,14 @@ header {
   box-sizing: border-box;
   border-radius: 46px;
 }
-.text {
+.portada {
   display: inline-block;
   width: 29%;
   margin-bottom: 300px;
 }
-.portada {
+.text{
+  width: 633px;
+  height: 194px;
 }
 .titulorosa {
   font-family: 'Red Hat Display', sans-serif;
@@ -83,6 +83,7 @@ header {
   font-family: 'Baloo Tamma 2', cursive;
   font-size: 24px;
   line-height: 160%;
+  width: 633px;
 }
 .button2 {
   width: 250px;
