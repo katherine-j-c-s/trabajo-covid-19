@@ -64,6 +64,7 @@ header {
 .text {
   display: inline-block;
   width: 29%;
+  margin-bottom: 200px;
 }
 .portada {
 }
