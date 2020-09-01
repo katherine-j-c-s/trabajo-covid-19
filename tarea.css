@@ -135,6 +135,7 @@ header {
   color: #4b4f51;
 }
 .button3 {
+  position: relative;
   width: 200px;
   height: 65px;
   background: rgba(250, 86, 82, 0.15);
@@ -142,12 +143,14 @@ header {
   margin-left: 800px;
 }
 .learnmore {
+  position: absolute;
   text-align: center;
   font-family: 'Baloo Tamma 2', cursive;
   font-weight: 600;
   font-size: 20px;
   text-transform: capitalize;
   color: #000000;
+  left: 50px;
 }
 .dibujo2 {
   width: 979.42px;
