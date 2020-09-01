@@ -67,7 +67,7 @@ header {
 .text {
   display: inline-block;
   width: 29%;
-  margin-bottom: 200px;
+  margin-bottom: 300px;
 }
 .portada {
 }
@@ -114,7 +114,7 @@ header {
   width: 288px;
   height: 107px;
   line-height: 124%;
-  padding-left: 256.5px;
+  padding-left: 800px;
 }
 .titulorosa2 {
   font-family: 'Red Hat Display', sans-serif;
@@ -133,6 +133,7 @@ header {
   height: 200px;
   /* left: 1033px; */
   /* top: 330px; */
+  padding: 20px 0px 80px 800px;
   font-family: 'Baloo Tamma 2', cursive;
   font-size: 20px;
   line-height: 215%;
@@ -147,6 +148,7 @@ header {
   /* top: 700px; */
   background: rgba(250, 86, 82, 0.15);
   border-radius: 65px;
+  margin-left: 800px;
 }
 .learnmore {
   text-align: center;
