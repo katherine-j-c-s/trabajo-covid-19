@@ -109,7 +109,7 @@ header {
 .whatiscovid19coronavirus {
   position: absolute;
   top: 70px;
-  width: 416.06px;
+  width: 800px;
   height: 648px;
   display: inline-block;
 }
@@ -171,7 +171,15 @@ header {
   position: absolute;
   left: -150px;
 }
+.cajadevirusrectangulo2 {
+  display: inline-block;
+  padding-left: 650px;
+  width: 500px;
+  height: 500px;
+}
 .virus1 {
+  /*position: absolute;*/
+
   display: inline-block;
   width: 187px;
   height: 188px;
@@ -181,9 +189,11 @@ header {
   /* top: 70.88%; */
 }
 .virus2 {
+  /*position: absolute;*/
   display: inline-block;
   width: 210px;
   height: 407px;
+  margin-bottom: 70px;
   /* position: absolute; revisar el uso excesivo de position absolute */
   /* left: 1850px; */
   /* top: 35.14%; */
