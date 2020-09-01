@@ -101,16 +101,22 @@ header {
 .image {
   width: 100%;
 }
-
 .rectangulo2 {
+  position: relative;
   height: 974.25px;
   width: 2254.93px;
+}
+.whatiscovid19coronavirus {
+  /*position: absolute;*/
+  width: 30%;
+  /*height: 648px;*/
+  display: inline-block;
 }
 .portada2 {
   width: 288px;
   height: 107px;
   line-height: 124%;
-  padding-left: 800px;
+  /*padding-left: 800px;*/
 }
 .titulorosa2 {
   font-family: 'Red Hat Display', sans-serif;
@@ -126,7 +132,7 @@ header {
 .info2 {
   width: 648px;
   height: 200px;
-  padding: 20px 0px 80px 800px;
+  /*padding: 20px 0px 80px 800px;*/
   font-family: 'Baloo Tamma 2', cursive;
   font-size: 20px;
   line-height: 215%;
@@ -139,7 +145,7 @@ header {
   height: 65px;
   background: rgba(250, 86, 82, 0.15);
   border-radius: 65px;
-  margin-left: 800px;
+  /*margin-left: 800px;*/
 }
 .learnmore {
   position: absolute;
@@ -152,19 +158,26 @@ header {
   left: 50px;
 }
 .dibujo2 {
-  width: 979.42px;
-  height: 796.36px;
+  width: 30%;
+  /*height: 866px;*/
   /* left: -138.41px; */
   /* top: 1079px; */
-  transform: rotate(-10.07deg);
+  /*transform: rotate(-10.07deg);*/
+  display: inline-block;
 }
 .virus1 {
+  display: inline-block;
+  width: 187px;
+  height: 188px;
   /* position: absolute; revisar el uso excesivo de position absolute */
   /* left: 1800px; */
   /* right: -13.85%; */
   /* top: 70.88%; */
 }
 .virus2 {
+  display: inline-block;
+  width: 210px;
+  height: 407px;
   /* position: absolute; revisar el uso excesivo de position absolute */
   /* left: 1850px; */
   /* top: 35.14%; */
