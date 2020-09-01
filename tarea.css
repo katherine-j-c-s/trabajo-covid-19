@@ -107,9 +107,10 @@ header {
   width: 2254.93px;
 }
 .whatiscovid19coronavirus {
-  /*position: absolute;*/
-  width: 30%;
-  /*height: 648px;*/
+  position: absolute;
+  top: 70px;
+  width: 416.06px;
+  height: 648px;
   display: inline-block;
 }
 .portada2 {
@@ -158,12 +159,16 @@ header {
   left: 50px;
 }
 .dibujo2 {
-  width: 30%;
-  /*height: 866px;*/
+  width: 832px;
+  height: 866px;
   /* left: -138.41px; */
   /* top: 1079px; */
   /*transform: rotate(-10.07deg);*/
   display: inline-block;
+}
+.virusdeldibujo2 {
+  position: absolute;
+  left: -150px;
 }
 .virus1 {
   display: inline-block;
