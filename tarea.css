@@ -118,7 +118,6 @@ header {
   width: 288px;
   height: 107px;
   line-height: 124%;
-  /*padding-left: 800px;*/
 }
 .titulorosa2 {
   font-family: 'Red Hat Display', sans-serif;
@@ -147,7 +146,6 @@ header {
   height: 65px;
   background: rgba(250, 86, 82, 0.15);
   border-radius: 65px;
-  /*margin-left: 800px;*/
 }
 .learnmore {
   position: absolute;
@@ -162,9 +160,6 @@ header {
 .dibujo2 {
   width: 832px;
   height: 866px;
-  /* left: -138.41px; */
-  /* top: 1079px; */
-  /*transform: rotate(-10.07deg);*/
   display: inline-block;
 }
 .virusdeldibujo2 {
@@ -178,25 +173,15 @@ header {
   height: 500px;
 }
 .virus1 {
-  /*position: absolute;*/
-
   display: inline-block;
   width: 187px;
   height: 188px;
-  /* position: absolute; revisar el uso excesivo de position absolute */
-  /* left: 1800px; */
-  /* right: -13.85%; */
-  /* top: 70.88%; */
 }
 .virus2 {
-  /*position: absolute;*/
   display: inline-block;
   width: 210px;
   height: 407px;
   margin-bottom: 70px;
-  /* position: absolute; revisar el uso excesivo de position absolute */
-  /* left: 1850px; */
-  /* top: 35.14%; */
 }
 .rectangulo3 {
   /* position: relative; */
