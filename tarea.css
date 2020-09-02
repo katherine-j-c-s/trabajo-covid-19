@@ -3,6 +3,8 @@ body {
 }
 header {
   padding: 36px 228px 36px 150px;
+  display: flex;
+  justify-content: space-between;
 }
 .fondo {
 }
@@ -12,12 +14,13 @@ header {
   margin: auto;
 }
 .rectangulo1 {
+  display: flex;
+  justify-content: space-between;
   padding-left: 150px;
+  margin-bottom: 102px;
 }
 .logo {
-  display: inline-block;
-  position: relative;
-  width: 30%;
+  display: flex;
 }
 .virus {
   height: 63px;
@@ -25,8 +28,6 @@ header {
   padding-right: 10px;
 }
 .covid-19 {
-  position: absolute;
-  top: 5%;
   font-family: 'Red Hat Display', sans-serif;
   font-weight: bold;
   font-size: 19px;
@@ -35,7 +36,6 @@ header {
   display: inline-block;
 }
 .optionsContainer {
-  float: right;
 }
 .option {
   display: inline-block;
@@ -60,13 +60,13 @@ header {
   border-radius: 46px;
 }
 .portada {
-  display: inline-block;
-  width: 29%;
-  margin-bottom: 300px;
+  /* background: green; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.text{
-  width: 633px;
-  height: 194px;
+.text {
 }
 .titulorosa {
   font-family: 'Red Hat Display', sans-serif;
@@ -75,15 +75,12 @@ header {
 .tituto {
   font-weight: bold;
   font-size: 39px;
-  line-height: 122%;
   font-family: 'Red Hat Display', sans-serif;
 }
 .info {
   font-weight: normal;
   font-family: 'Baloo Tamma 2', cursive;
   font-size: 24px;
-  line-height: 160%;
-  width: 633px;
 }
 .button2 {
   width: 250px;
@@ -96,23 +93,17 @@ header {
   font-size: 24px;
 }
 .dibujo {
-  display: inline-block;
-  width: 70%;
 }
 .image {
-  width: 100%;
 }
 .rectangulo2 {
-  position: relative;
-  height: 974.25px;
-  width: 2254.93px;
+  display: flex;
+  justify-content: space-between;
 }
 .whatiscovid19coronavirus {
-  position: absolute;
-  top: 70px;
-  width: 800px;
-  height: 648px;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .portada2 {
   padding-bottom: 30px;
@@ -132,12 +123,8 @@ header {
   font-size: 50px;
 }
 .info2 {
-  width: 648px;
-  height: 200px;
-  padding-bottom: 150px;
   font-family: 'Baloo Tamma 2', cursive;
   font-size: 20px;
-  line-height: 215%;
   text-transform: capitalize;
   color: #4b4f51;
 }
@@ -159,30 +146,18 @@ header {
   left: 50px;
 }
 .dibujo2 {
-  width: 832px;
-  height: 866px;
-  display: inline-block;
 }
 .virusdeldibujo2 {
-  position: absolute;
-  left: -150px;
 }
+
 .cajadevirusrectangulo2 {
-  display: inline-block;
-  padding-left: 650px;
-  width: 500px;
-  height: 500px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-start;
 }
 .virus1 {
-  display: inline-block;
-  width: 187px;
-  height: 188px;
 }
 .virus2 {
-  display: inline-block;
-  width: 210px;
-  height: 407px;
-  margin-bottom: 70px;
 }
 .rectangulo3 {
   /* position: relative; */
@@ -1210,16 +1185,10 @@ header {
   /* top: 207px; */
 }
 .rectangulobuttom {
-  /* position: absolute; revisar el uso excesivo de position absolute */
   width: 209px;
   height: 78px;
-  /* left: 564px; */
-  /* top: 18px; */
 }
 .buttomtext {
-  /* position: absolute; revisar el uso excesivo de position absolute */
-  /* left: 81px; */
-  /* top: 26px; */
   font-family: 'Baloo Tamma 2', cursive;
   font-weight: 500;
   font-size: 22px;
@@ -1227,20 +1196,14 @@ header {
   color: #ffffff;
 }
 .rectangulobuttom2 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
-  /* top: 18px; */
   background: #f44a45;
   border-radius: 157px;
 }
 .rectagulogmail {
-  /* position: absolute; revisar el uso excesivo de position absolute */
   width: 790px;
   height: 114px;
 }
 .gmail {
-  /* position: absolute; revisar el uso excesivo de position absolute */
-  /* left: 41px; */
-  /* top: 44px; */
   font-family: 'Baloo Tamma 2', cursive;
   font-size: 22px;
   line-height: 26px;
@@ -1248,25 +1211,14 @@ header {
 }
 .footerContainer {
   margin: 50px 230px;
-  position: relative;
-}
-.logo2 {
-  display: inline-block;
+  display: flex;
+  justify-content: space-between;
 }
 .paginaswebs {
-  height: 29px;
-  position: relative;
-  top: 50%;
 }
 .imageContainer {
-  float: right;
-  height: 130px;
 }
 .centro {
-  display: inline-block;
-  position: absolute;
-  left: 25%;
-  top: 50%;
 }
 .copyright {
   margin: 0px;
@@ -1277,13 +1229,12 @@ header {
   text-align: center;
 }
 .optionsFooter {
-  display: inline-block;
+  display: flex;
   font-family: 'Baloo Tamma 2', cursive;
   font-size: 23px;
   line-height: 28px;
   color: #00402e;
 }
 .optionfooter {
-  display: inline;
   margin-right: 20px;
 }
