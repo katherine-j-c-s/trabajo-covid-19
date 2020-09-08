@@ -307,7 +307,9 @@ header {
 }
 /*pa comitear*/
 .cosa-transparente1 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
+  display: flex;
+  justify-self: flex-start;
+  align-self: center;
   width: 220.36px;
   height: 148.16;
   /* left: 1551.76px; */
@@ -315,7 +317,9 @@ header {
   transform: matrix(0.99, -0.14, -0.14, -0.99, 0, 0);
 }
 .cosa-transparente2 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
+  display: flex;
+  justify-self: flex-end;
+  align-self: center;
   width: 129.22px;
   height: 134.03px;
   /* top: 740px; */
