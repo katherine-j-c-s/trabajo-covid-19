@@ -255,26 +255,27 @@ header {
   border-radius: 10px;
 }
 .rectangulo4 {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 1791.06px;
+  /* width: 1791.06px;
   height: 1099.34px;
-  /* left: 91px; */
+  left: 91px; */
   /* top: 20px; */
 }
 .covid-19-simptomps {
   flex-direction: row;
   justify-content: center;
-  width: 289px;
+ /*  width: 289px;
   height: 107px;
-  /* left: 724px; */
+  left: 724px; */
 }
 .titulorosa4 {
   font-family: 'Red Hat Display', sans-serif;
   font-weight: bold;
   font-size: 29px;
-  line-height: 124%;
+  /*line-height: 124%;*/
   text-align: center;
   color: #fa5652;
 }
@@ -298,8 +299,15 @@ header {
   text-transform: capitalize;
   color: #4b4f51;
 }
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 .dibujo-de-la-niña2 {
   /* position: absolute; revisar el uso excesivo de position absolute */
+  order: 2;
+  margin: 0px 50px 0px 100px;
   width: 1167.68px;
   height: 871.58px;
   /* left: 285.66px; */
@@ -307,22 +315,22 @@ header {
 }
 /*pa comitear*/
 .cosa-transparente1 {
-  display: flex;
-  justify-self: flex-start;
-  align-self: center;
-  width: 220.36px;
+  order: 3;
+  justify-self: flex-end;
+  align-self: flex-end;
+  /* width: 220.36px;
   height: 148.16;
-  /* left: 1551.76px; */
+  left: 1551.76px; */
   /* top: 921.16px; */
-  transform: matrix(0.99, -0.14, -0.14, -0.99, 0, 0);
 }
 .cosa-transparente2 {
-  display: flex;
-  justify-self: flex-end;
+  order: 1;
+  justify-self: flex-start;
   align-self: center;
-  width: 129.22px;
+
+  /*  width: 129.22px;
   height: 134.03px;
-  /* top: 740px; */
+ top: 740px; */
   transform: rotate(-21.24deg);
 }
 .rectangulo5 {
