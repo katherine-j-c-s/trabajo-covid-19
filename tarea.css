@@ -256,7 +256,7 @@ header {
 }
 .rectangulo4 {
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   width: 1791.06px;
   height: 1099.34px;
@@ -305,6 +305,7 @@ header {
   /* left: 285.66px; */
   /* top: 206.1px; */
 }
+/*pa comitear*/
 .cosa-transparente1 {
   /* position: absolute; revisar el uso excesivo de position absolute */
   width: 220.36px;
