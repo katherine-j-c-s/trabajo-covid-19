@@ -409,31 +409,21 @@ header {
   color: #4b4f51;
 }
 .grupo2 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
-  width: 1324px;
-  height: 584.89px;
-  /* left: 379px; */
-  /* top: 840px; */
+  display: flex;
+  flex-direction: row;
 }
 .niñalavandoselasmanos {
-  /* position: absolute; revisar el uso excesivo de position absolute */
-  width: 564.88px;
-  height: 584.89px;
 }
 .infowash {
-  /* position: absolute; revisar el uso excesivo de position absolute */
   width: 611px;
-  height: 275.89px;
-  /* top: 155px; */
-  /* left: 713px; */
 }
 .numero2 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
+  position: relative;
   width: 75px;
   height: 75px;
 }
 .num2 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
+  position: absolute;
   width: 50px;
   height: 51px;
   /* left: 9px; */
@@ -446,7 +436,7 @@ header {
   color: #fa5652;
 }
 .circulo2 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
+  position: absolute;
   width: 75px;
   height: 75px;
   background: #fa5652;
@@ -479,31 +469,21 @@ header {
   color: #4b4f51;
 }
 .grupo3 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
-  width: 1441.67px;
-  height: 567px;
-  /* left: 380px; */
-  /* top: 1410px; */
+  display: flex;
+  flex-direction: row-reverse;
 }
 .niñausandopañoelo {
-  /* position: absolute; revisar el uso excesivo de position absolute */
-  width: 573.21px;
-  height: 567px;
-  /* left: 876.37px; */
 }
 .infopañuelo {
-  /* position: absolute; revisar el uso excesivo de position absolute */
   width: 652px;
-  height: 252px;
-  /* top: 158px; */
 }
 .numero3 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
+  position: relative;
   width: 75px;
   height: 75px;
 }
 .num3 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
+  position: absolute;
   width: 63px;
   height: 48px;
   /* left: 7px; */
@@ -516,7 +496,7 @@ header {
   color: #fa5652;
 }
 .circulo3 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
+  position: absolute;
   width: 75px;
   height: 75px;
   background: #fa5652;
@@ -549,31 +529,21 @@ header {
   color: #4b4f51;
 }
 .grupo4 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
-  width: 1358px;
-  height: 689.88px;
-  /* left: 366.14px; */
-  /* top: 1962px; */
+  display: flex;
+  flex-direction: row;
 }
 .niñaevadiendocontacto {
-  /* position: absolute; revisar el uso excesivo de position absolute */
-  width: 656.79px;
-  height: 689.88px;
 }
 .infoavoid-contact {
-  /* position: absolute; revisar el uso excesivo de position absolute */
   width: 611px;
-  height: 275.89px;
-  /* top: 218px; */
-  /* left: 713px; */
 }
 .numero4 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
+  position: relative;
   width: 75px;
   height: 75px;
 }
 .num4 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
+  position: absolute;
   width: 66px;
   height: 65px;
   /* left: 5.4px; */
@@ -586,7 +556,7 @@ header {
   color: #fa5652;
 }
 .circulo4 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
+  position: absolute;
   width: 75px;
   height: 75px;
   background: #fa5652;
