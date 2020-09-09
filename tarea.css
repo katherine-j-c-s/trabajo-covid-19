@@ -60,7 +60,6 @@ header {
   border-radius: 46px;
 }
 .portada {
-  /* background: green; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -170,7 +169,7 @@ header {
 .contagionItemsContainer {
   display: flex;
   justify-content: space-evenly;
-  margin-right: 220px; /* TODO: Modify */
+  margin-right: 220px;
 }
 .contagionItem {
   display: flex;
@@ -178,7 +177,6 @@ header {
   justify-content: center;
   align-items: center;
   padding: 65px 52px 78px 53px;
-  /* margin-right: 30px; TODO: modificar */
   box-shadow: 0px 5px 80px rgba(0, 0, 0, 0.08);
   border-radius: 10px;
 }
@@ -191,7 +189,6 @@ header {
 .titulo3 {
   font-weight: bold;
   font-size: 36px;
-  /* line-height: 100%; */
   font-family: 'Red Hat Display', sans-serif;
   text-align: center;
 }
@@ -259,23 +256,15 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* width: 1791.06px;
-  height: 1099.34px;
-  left: 91px; */
-  /* top: 20px; */
 }
 .covid-19-simptomps {
   flex-direction: row;
   justify-content: center;
- /*  width: 289px;
-  height: 107px;
-  left: 724px; */
 }
 .titulorosa4 {
   font-family: 'Red Hat Display', sans-serif;
   font-weight: bold;
   font-size: 29px;
-  /*line-height: 124%;*/
   text-align: center;
   color: #fa5652;
 }
@@ -287,11 +276,7 @@ header {
   text-align: center;
 }
 .info4 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
   width: 716px;
-  height: 71px;
-  /* left: 511px; */
-  /* top: 138px; */
   font-family: 'Baloo Tamma 2', cursive;
   font-size: 18px;
   line-height: 215%;
@@ -305,36 +290,23 @@ header {
   justify-content: space-around;
 }
 .dibujo-de-la-niña2 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
   order: 2;
   margin: 0px 50px 0px 100px;
   width: 1167.68px;
   height: 871.58px;
-  /* left: 285.66px; */
-  /* top: 206.1px; */
 }
-/*pa comitear*/
 .cosa-transparente1 {
   order: 3;
   justify-self: flex-end;
   align-self: flex-end;
-  /* width: 220.36px;
-  height: 148.16;
-  left: 1551.76px; */
-  /* top: 921.16px; */
 }
 .cosa-transparente2 {
   order: 1;
   justify-self: flex-start;
   align-self: center;
-
-  /*  width: 129.22px;
-  height: 134.03px;
- top: 740px; */
   transform: rotate(-21.24deg);
 }
 .rectangulo5 {
-  /* position: relative; */
   width: 2209px;
   height: 2651.88px;
   /* left: -136px; */
