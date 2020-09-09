@@ -357,25 +357,13 @@ header {
   color: #4b4f51;
 }
 .grupo1 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
   display: flex;
   flex-direction: row-reverse;
-   /* width: 1352.65px;
-  height: 574.98px;
- left: 379px; */
-  /* top: 281px; */
 }
 .niñaconmascara {
-  /* position: absolute; revisar el uso excesivo de position absolute */
- /* width: 555.65px;
-  height: 574.98px;
-   left: 804px; */
 }
 .infomasks {
-  /* position: absolute; revisar el uso excesivo de position absolute */
   width: 647px;
-  /*height: 252px;
-   top: 166.98px; */
 }
 .numero1 {
   position: relative;
@@ -386,8 +374,6 @@ header {
   position: absolute;
   width: 50px;
   height: 51px;
-  /* left: 13px; */
-  /* top: -20px; */
   font-family: 'Red Hat Display', sans-serif;
   font-weight: bold;
   font-size: 44px;
@@ -404,11 +390,8 @@ header {
   border-radius: 100%;
 }
 .tituloNum1 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
   width: 352px;
   height: 69px;
-  /* top: 3px; */
-  /* left: 115px; */
   font-family: 'Baloo Tamma 2', cursive;
   font-weight: 500;
   font-size: 47px;
@@ -417,11 +400,8 @@ header {
   color: #035755;
 }
 .infoNum1 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
   width: 532px;
   height: 160px;
-  /* left: 115px; */
-  /* top: 92px; */
   font-family: 'Baloo Tamma 2', cursive;
   font-size: 18px;
   line-height: 221%;
