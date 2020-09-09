@@ -307,22 +307,26 @@ header {
   transform: rotate(-21.24deg);
 }
 .rectangulo5 {
-  width: 2209px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ /*  width: 2209px;
   height: 2651.88px;
-  /* left: -136px; */
+  left: -136px; */
   /* top: 20px; */
 }
 .heading {
   /* position: absolute; revisar el uso excesivo de position absolute */
-  width: 650px;
+   /* width: 650px;
   height: 209px;
-  /* left: 771px; */
+ left: 771px; */
 }
 .covid19-what-should-we-do {
   /* position: absolute; revisar el uso excesivo de position absolute */
-  width: 473px;
+  /* width: 473px;
   height: 107px;
-  /* left: 89px; */
+  left: 89px; */
 }
 .titulorosa5 {
   font-family: 'Red Hat Display', sans-serif;
@@ -343,8 +347,8 @@ header {
 .info5 {
   /* position: absolute; revisar el uso excesivo de position absolute */
   width: 650px;
-  height: 71px;
-  /* top: 138px; */
+  /*height: 71px;
+   top: 138px; */
   font-family: 'Baloo Tamma 2', cursive;
   font-size: 18px;
   line-height: 215%;
@@ -354,30 +358,32 @@ header {
 }
 .grupo1 {
   /* position: absolute; revisar el uso excesivo de position absolute */
-  width: 1352.65px;
+  display: flex;
+  flex-direction: row-reverse;
+   /* width: 1352.65px;
   height: 574.98px;
-  /* left: 379px; */
+ left: 379px; */
   /* top: 281px; */
 }
 .niñaconmascara {
   /* position: absolute; revisar el uso excesivo de position absolute */
-  width: 555.65px;
+ /* width: 555.65px;
   height: 574.98px;
-  /* left: 804px; */
+   left: 804px; */
 }
 .infomasks {
   /* position: absolute; revisar el uso excesivo de position absolute */
   width: 647px;
-  height: 252px;
-  /* top: 166.98px; */
+  /*height: 252px;
+   top: 166.98px; */
 }
 .numero1 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
+  position: relative;
   width: 75px;
   height: 75px;
 }
 .num1 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
+  position: absolute;
   width: 50px;
   height: 51px;
   /* left: 13px; */
@@ -390,7 +396,7 @@ header {
   color: #fa5652;
 }
 .circulo1 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
+  position: absolute;
   width: 75px;
   height: 75px;
   background: #fa5652;
