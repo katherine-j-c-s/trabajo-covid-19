@@ -553,24 +553,20 @@ header {
   color: #4b4f51;
 }
 .virusrectangulo5 {
-  width: 2209px;
-  height: 1833px;
-  /* top: 620px; */
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 .virusverduso {
-  /* position: absolute; revisar el uso excesivo de position absolute */
-  /* top: 1362px; */
-  /* left: 1896px; */
+order: 2;
+
 }
 .virusrosadusomedio {
-  /* position: absolute; revisar el uso excesivo de position absolute */
-  /* top: 0px; */
-  /* left: 131px; */
+order: 3;
 }
 .virusuverdusomedio {
-  /* position: absolute; revisar el uso excesivo de position absolute */
-  /* top: 1509px; */
-  /* left: 1894px; */
+order: 1;
 }
 .rectangulo6 {
   /* position: relative; */
