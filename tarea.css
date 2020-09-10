@@ -353,26 +353,7 @@ header {
 }
 .infomasks {
   width: 647px;
-  margin: 6% 4.5% 0 2.9%;
-}
-.numero1 {
-  display: flex;
-  align-items: flex-start;
-  justify-items: baseline;
-  margin: 4.5% 2.9% 0;
-}
-.num1 {
-  width: 75px;
-  height: 75px;
-  color: #fa5652;
-  border-radius: 100%;
-  text-align: center;
-  font-family: 'Red Hat Display', sans-serif;
-  font-weight: bold;
-  font-size: 44px;
-  line-height: 145%;
-  text-transform: capitalize;
-  background-color: hsla(1, 94%, 65%, 0.158);
+  margin: 6% 4.5% 0 0;
 }
 .tituloNum1 {
   width: 352px;
@@ -393,6 +374,25 @@ header {
   text-transform: capitalize;
   color: #4b4f51;
 }
+.numero1 {
+  display: flex;
+  align-items: flex-start;
+  justify-items: baseline;
+  margin: 4.5% 2.9% 0 5.8%;
+}
+.num1 {
+  width: 75px;
+  height: 75px;
+  color: #fa5652;
+  border-radius: 100%;
+  text-align: center;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 145%;
+  text-transform: capitalize;
+  background-color: hsla(1, 94%, 65%, 0.158);
+}
 .virusuverdusomedio {
   display: flex;
   align-self: flex-end;
@@ -410,6 +410,7 @@ header {
   display: flex;
   align-items: flex-start;
   justify-items: baseline;
+  margin: 8.5% 2.9% 0 -13%;
 }
 .num2 {
   width: 75px;
@@ -426,6 +427,7 @@ header {
 }
 .infowash {
   width: 611px;
+  margin: 10% 4.5% 0 0%;
 }
 .tituloNum2 {
   width: 389px;
@@ -451,28 +453,11 @@ header {
   flex-direction: row-reverse;
 }
 .niñausandopañoelo {
-  margin: 0 -8% 0 6.9%;
+  margin: 0 -6% 0 6.4%;
 }
 .infopañuelo {
   width: 652px;
-}
-.numero3 {
-  display: flex;
-  align-items: flex-start;
-  justify-items: baseline;
-}
-.num3 {
-  width: 75px;
-  height: 75px;
-  color: #fa5652;
-  border-radius: 100%;
-  text-align: center;
-  font-family: 'Red Hat Display', sans-serif;
-  font-weight: bold;
-  font-size: 44px;
-  line-height: 145%;
-  text-transform: capitalize;
-  background-color: hsla(1, 94%, 65%, 0.158);
+  margin: 11% 4.5% 0 0%;
 }
 .tituloNum3 {
   width: 360px;
@@ -493,21 +478,37 @@ header {
   text-transform: capitalize;
   color: #4b4f51;
 }
+.numero3 {
+  display: flex;
+  align-items: flex-start;
+  justify-items: baseline;
+  margin: 9.5% 2.9% 0;
+}
+.num3 {
+  width: 75px;
+  height: 75px;
+  color: #fa5652;
+  border-radius: 100%;
+  text-align: center;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 145%;
+  text-transform: capitalize;
+  background-color: hsla(1, 94%, 65%, 0.158);
+}
 .grupo4 {
   display: flex;
   flex-direction: row;
 }
 .niñaevadiendocontacto {
-  margin: 0 4.6% 0 2%;
-}
-.infoavoid-contact {
-  width: 611px;
-  margin: 0 6.5% 0 0;
+  margin: 0 4.6% 0 9.5%;
 }
 .numero4 {
   display: flex;
   align-items: flex-start;
   justify-items: baseline;
+  margin: 9.5% 2.9% 0 -5.5%;
 }
 .num4 {
   width: 75px;
@@ -521,6 +522,11 @@ header {
   line-height: 145%;
   text-transform: capitalize;
   background-color: hsla(1, 94%, 65%, 0.158);
+}
+.infoavoid-contact {
+  width: 611px;
+  margin: 0 6.5% 0 0;
+  margin: 11% -1.5% 0 0;
 }
 .tituloNum4 {
   width: 389px;
