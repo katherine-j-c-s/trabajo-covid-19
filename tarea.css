@@ -410,32 +410,28 @@ header {
 .niñalavandoselasmanos {
   margin: 0 22% 0 -12%;
 }
-.infowash {
-  width: 611px;
-}
 .numero2 {
   position: relative;
   width: 75px;
   height: 75px;
 }
 .num2 {
-  position: absolute;
+  width: 75px;
+  height: 75px;
+  color: #fa5652;
+  border-radius: 100%;
+  /*position: absolute;
   width: 50px;
-  height: 51px;
+  height: 51px;*/
   font-family: 'Red Hat Display', sans-serif;
   font-weight: bold;
   font-size: 44px;
   line-height: 145%;
   text-transform: capitalize;
-  color: #fa5652;
+  background-color: hsla(1, 94%, 65%, 0.158);
 }
-.circulo2 {
-  position: absolute;
-  width: 75px;
-  height: 75px;
-  background: #fa5652;
-  opacity: 0.15;
-  border-radius: 100%;
+.infowash {
+  width: 611px;
 }
 .tituloNum2 {
   width: 389px;
