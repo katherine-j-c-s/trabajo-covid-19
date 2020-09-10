@@ -349,9 +349,11 @@ header {
   flex-direction: row-reverse;
 }
 .niñaconmascara {
+  margin: 0 2.8%;
 }
 .infomasks {
   width: 647px;
+  margin: 0 7% 0 10%;
 }
 .numero1 {
   position: relative;
@@ -396,11 +398,17 @@ header {
   text-transform: capitalize;
   color: #4b4f51;
 }
+.virusuverdusomedio {
+  display: flex;
+  align-self: flex-end;
+  justify-self: flex-start;
+}
 .grupo2 {
   display: flex;
   flex-direction: row;
 }
 .niñalavandoselasmanos {
+  margin: 0 22% 0 -12%;
 }
 .infowash {
   width: 611px;
@@ -453,6 +461,7 @@ header {
   flex-direction: row-reverse;
 }
 .niñausandopañoelo {
+  margin: 0 -8% 0 6.9%;
 }
 .infopañuelo {
   width: 652px;
@@ -505,9 +514,11 @@ header {
   flex-direction: row;
 }
 .niñaevadiendocontacto {
+  margin: 0 4.6% 0 2%;
 }
 .infoavoid-contact {
   width: 611px;
+  margin: 0 6.5% 0 0;
 }
 .numero4 {
   position: relative;
@@ -554,19 +565,14 @@ header {
 }
 .virusrectangulo5 {
   display: flex;
-  flex-flow: column wrap;
-  justify-content: flex-end;
-  align-items: flex-end;
+  align-self: flex-start;
+  justify-self: flex-end;
 }
 .virusverduso {
-order: 2;
-
+align-self: flex-start;
 }
 .virusrosadusomedio {
-order: 3;
-}
-.virusuverdusomedio {
-order: 1;
+  align-self: flex-end;
 }
 .rectangulo6 {
   /* position: relative; */
