@@ -564,11 +564,10 @@ margin: -40% 0 0 0;
   margin: 0 0 0 -30%;
 }
 .rectangulo6 {
-  /* position: relative; */
+  display: flex;
+  flex-direction: row-reverse;
   width: 1912.67px;
   height: 1284.88px;
-  /* left: 183.92px; */
-  /* top: 20px; */
 }
 .liverReports {
   /* position: absolute; revisar el uso excesivo de position absolute */
