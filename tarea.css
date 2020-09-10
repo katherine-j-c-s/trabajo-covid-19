@@ -356,28 +356,22 @@ header {
   margin: 0 7% 0 10%;
 }
 .numero1 {
-  position: relative;
-  width: 75px;
-  height: 75px;
+  display: flex;
+  align-items: flex-start;
+  justify-items: baseline;
 }
 .num1 {
-  position: absolute;
-  width: 50px;
-  height: 51px;
+  width: 75px;
+  height: 75px;
+  color: #fa5652;
+  border-radius: 100%;
+  text-align: center;
   font-family: 'Red Hat Display', sans-serif;
   font-weight: bold;
   font-size: 44px;
   line-height: 145%;
   text-transform: capitalize;
-  color: #fa5652;
-}
-.circulo1 {
-  position: absolute;
-  width: 75px;
-  height: 75px;
-  background: #fa5652;
-  opacity: 0.15;
-  border-radius: 100%;
+  background-color: hsla(1, 94%, 65%, 0.158);
 }
 .tituloNum1 {
   width: 352px;
@@ -411,16 +405,16 @@ header {
   margin: 0 22% 0 -12%;
 }
 .numero2 {
-  position: relative;
-  width: 75px;
-  height: 75px;
+  display: flex;
+  align-items: flex-start;
+  justify-items: baseline;
 }
 .num2 {
   width: 75px;
   height: 75px;
   color: #fa5652;
   border-radius: 100%;
-  /*cambiar todas los numeros de los otros grupos*/
+  text-align: center;
   font-family: 'Red Hat Display', sans-serif;
   font-weight: bold;
   font-size: 44px;
@@ -461,28 +455,22 @@ header {
   width: 652px;
 }
 .numero3 {
-  position: relative;
-  width: 75px;
-  height: 75px;
+  display: flex;
+  align-items: flex-start;
+  justify-items: baseline;
 }
 .num3 {
-  position: absolute;
-  width: 63px;
-  height: 48px;
+  width: 75px;
+  height: 75px;
+  color: #fa5652;
+  border-radius: 100%;
+  text-align: center;
   font-family: 'Red Hat Display', sans-serif;
   font-weight: bold;
   font-size: 44px;
   line-height: 145%;
   text-transform: capitalize;
-  color: #fa5652;
-}
-.circulo3 {
-  position: absolute;
-  width: 75px;
-  height: 75px;
-  background: #fa5652;
-  opacity: 0.15;
-  border-radius: 100%;
+  background-color: hsla(1, 94%, 65%, 0.158);
 }
 .tituloNum3 {
   width: 360px;
@@ -515,28 +503,22 @@ header {
   margin: 0 6.5% 0 0;
 }
 .numero4 {
-  position: relative;
-  width: 75px;
-  height: 75px;
+  display: flex;
+  align-items: flex-start;
+  justify-items: baseline;
 }
 .num4 {
-  position: absolute;
-  width: 66px;
-  height: 65px;
+  width: 75px;
+  height: 75px;
+  color: #fa5652;
+  border-radius: 100%;
+  text-align: center;
   font-family: 'Red Hat Display', sans-serif;
   font-weight: bold;
   font-size: 44px;
   line-height: 145%;
   text-transform: capitalize;
-  color: #fa5652;
-}
-.circulo4 {
-  position: absolute;
-  width: 75px;
-  height: 75px;
-  background: #fa5652;
-  opacity: 0.15;
-  border-radius: 100%;
+  background-color: hsla(1, 94%, 65%, 0.158);
 }
 .tituloNum4 {
   width: 389px;
