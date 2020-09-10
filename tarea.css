@@ -256,6 +256,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 10% 0 0 0;
 }
 .covid-19-simptomps {
   flex-direction: row;
@@ -311,6 +312,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 10% 0 0 0;
 
 }
 .heading {
@@ -551,12 +553,15 @@ header {
   display: flex;
   align-self: flex-start;
   justify-self: flex-end;
+  margin: 8% -8% 0 0;
 }
 .virusverduso {
 align-self: flex-start;
+margin: -40% 0 0 0;
 }
 .virusrosadusomedio {
   align-self: flex-end;
+  margin: 0 0 0 -30%;
 }
 .rectangulo6 {
   /* position: relative; */
