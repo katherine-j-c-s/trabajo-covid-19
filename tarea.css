@@ -573,13 +573,14 @@ margin: -40% 0 0 0;
   justify-content: space-evenly;
 }
 .reporte {
+  order: 2;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 504px;
   height: 635px;
-  background-color: linear-gradient(360deg, #FFFBFB -79.45%, #FDFDFD 105.35%);
+  background: linear-gradient(360deg, #FFFBFB -79.45%, #FDFDFD 105.35%);
   box-shadow: 0px 7px 95px rgba(0, 0, 0, 0.07);
   border-radius: 0px;
 }
@@ -588,8 +589,6 @@ margin: -40% 0 0 0;
   flex-direction: column;
   width: 394px;
   height: 529px;
-  /* left: 55px; */
-  /* top: 54px; */
 }
 .grupodeFlechitasyTitulodelreporte{
   display: flex;
@@ -840,26 +839,18 @@ margin: -40% 0 0 0;
 }
 
 .RectanguleDeLupayOtros {
+  order: 1;
   background-image: url(Mask\ Group.png);
   width: 997.08px;
   height: 569.99px;
 }
 .Lupa {
   border-radius: 4.16667px;
+  order: 1;
 }
 .Otros {
   border-radius: 5px;
-}
-.MapaMayor {
-  /* position: absolute; revisar el uso excesivo de position absolute */
-  width: 1347.37px;
-  height: 569.99px;
-  /* top: 125px; */
-}
-.Maskgroup {
-  /* position: absolute; revisar el uso excesivo de position absolute */
-  width: 997.08px;
-  height: 569.99px;
+  order: 2;
 }
 .virus-transparente1 {
   /* position: absolute; revisar el uso excesivo de position absolute */
