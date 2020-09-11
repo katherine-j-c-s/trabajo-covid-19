@@ -599,6 +599,7 @@ margin: -40% 0 0 0;
 .LasFlechitas {
   display: flex;
   flex-direction: row;
+  margin: 0 -8% 0 11%;
 }
 .linea {
   order: 2;
@@ -636,6 +637,7 @@ margin: -40% 0 0 0;
   display: flex;
   align-items: baseline;
   justify-content: space-around;
+  margin-bottom: 5%;
 }
 .triangulo1 {
   order: 4;
@@ -667,6 +669,7 @@ margin: -40% 0 0 0;
   display: flex;
   align-items: baseline;
   justify-content: space-around;
+  margin-bottom: 5%;
 }
 .triangulo2 {
   order: 4;
@@ -698,6 +701,7 @@ margin: -40% 0 0 0;
   display: flex;
   align-items: baseline;
   justify-content: space-around;
+  margin-bottom: 5%;
 }
 .triangulo3 {
   order: 4;
@@ -729,6 +733,7 @@ margin: -40% 0 0 0;
   display: flex;
   align-items: baseline;
   justify-content: space-around;
+  margin-bottom: 5%;
 }
 .triangulo4 {
   order: 4;
@@ -760,6 +765,7 @@ margin: -40% 0 0 0;
   display: flex;
   align-items: baseline;
   justify-content: space-around;
+  margin-bottom: 5%;
 }
 .triangulo5 {
   order: 4;
@@ -791,6 +797,7 @@ margin: -40% 0 0 0;
   display: flex;
   align-items: baseline;
   justify-content: space-around;
+  margin-bottom: 5%;
 }
 .triangulo6 {
   order: 4;
