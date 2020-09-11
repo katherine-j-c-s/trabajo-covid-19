@@ -567,12 +567,15 @@ margin: -40% 0 0 0;
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-around;
+  margin: -35% -20% 0 15%;
 }
 .liverReports {
   display: flex;
   justify-content: space-evenly;
 }
 .reporte {
+  margin: -4.2% 0 0 0;
   order: 2;
   display: flex;
   flex-direction: column;
@@ -843,28 +846,27 @@ margin: -40% 0 0 0;
   background-image: url(Mask\ Group.png);
   width: 997.08px;
   height: 569.99px;
+  margin: 0 0 0 10.3%;
 }
 .Lupa {
   border-radius: 4.16667px;
   order: 1;
+  margin: -15% 0 0 80%;
 }
 .Otros {
   border-radius: 5px;
   order: 2;
+  margin: -23% 0 0 0;
 }
 .virus-transparente1 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
   width: 154.2px;
   height: 150.38px;
-  /* left: 1207.08px; */
-  /* top: 823px; */
+  margin: 50% 0 0 0;
 }
 .virus-transparente2 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
   width: 373.83px;
   height: 383.32px;
-  /* left: 1364.17px; */
-  /* top: 897px; */
+  margin: 80% 30% 0 -12%;
 }
 .rectangulo7 {
   display: flex;
@@ -872,6 +874,7 @@ margin: -40% 0 0 0;
   justify-content: center;
   align-items: self-end;
   width: 790px;
+  margin: -28% 0 10% 25%;
 }
 .sucribete {
   justify-items: center;
