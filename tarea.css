@@ -886,11 +886,16 @@ margin: -40% 0 0 0;
 .buttom {
   display: flex;
   flex-direction: row-reverse;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-evenly;
-  
+  width: 790px;
+  height: 114px;
+  background: #FFFFFF;
+  box-shadow: 0px 8px 80px rgba(0, 0, 0, 0.06);
+  border-radius: 57px;
 }
 .rectangulobuttom {
+  align-items: center;
   width: 209px;
   height: 78px;
   background-image: url(Rectangle\ 21665.png);
@@ -901,6 +906,7 @@ margin: -40% 0 0 0;
   font-size: 22px;
   line-height: 26px;
   color: #ffffff;
+  text-align: center;
 }
 .rectagulogmail {
   width: 790px;
