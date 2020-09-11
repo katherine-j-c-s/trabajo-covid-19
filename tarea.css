@@ -594,6 +594,7 @@ margin: -40% 0 0 0;
 .grupodeFlechitasyTitulodelreporte{
   display: flex;
   flex-direction: row-reverse;
+  margin: 0 15% 0 0;
 }
 .LasFlechitas {
   display: flex;
@@ -631,24 +632,17 @@ margin: -40% 0 0 0;
   color: #035755;
 }
 .paises1 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
-  width: 393px;
-  height: 37px;
-  /* top: 492px; */
+  flex-direction: row;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
 }
 .triangulo1 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
-  width: 23px;
-  height: 13.8px;
-  /* left: 370px; */
-  /* top: 12px; */
+  order: 4;
 }
 .numeros1 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
-  width: 70px;
-  height: 29px;
-  /* left: 279px; */
-  /* top: -15px; */
+  order: 3;
+  margin: 0 -15% 0 0;
   font-family: 'Baloo Tamma 2', cursive;
   font-weight: 500;
   font-size: 24px;
@@ -657,16 +651,11 @@ margin: -40% 0 0 0;
   color: #035755;
 }
 .bandera1 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
-  width: 49px;
-  height: 35px;
+  order: 1;
 }
 .pais1 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
-  width: 53px;
-  height: 37px;
-  /* left: 76px; */
-  /* top: -25px; */
+  order: 2;
+  margin: 0 0 0 -15%;
   font-family: 'Baloo Tamma 2', cursive;
   font-weight: 500;
   font-size: 31px;
