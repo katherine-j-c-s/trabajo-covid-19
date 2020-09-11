@@ -655,7 +655,7 @@ margin: -40% 0 0 0;
 }
 .pais1 {
   order: 2;
-  margin: 0 0 0 -15%;
+  margin: 0 20% 0 -15%;
   font-family: 'Baloo Tamma 2', cursive;
   font-weight: 500;
   font-size: 31px;
@@ -673,7 +673,7 @@ margin: -40% 0 0 0;
 }
 .numeros2 {
   order: 3;
-  margin: 0 -15% 0 0;
+  margin: 0 -15% 0 4%;
   font-family: 'Baloo Tamma 2', cursive;
   font-weight: 500;
   font-size: 24px;
@@ -704,7 +704,7 @@ margin: -40% 0 0 0;
 }
 .numeros3 {
   order: 3;
-  margin: 0 -15% 0 0;
+  margin: 0 -15% 0 15%;
   font-family: 'Baloo Tamma 2', cursive;
   font-weight: 500;
   font-size: 24px;
@@ -735,7 +735,7 @@ margin: -40% 0 0 0;
 }
 .numeros4 {
   order: 3;
-  margin: 0 -15% 0 0;
+  margin: 0 -15% 0 17%;
   font-family: 'Baloo Tamma 2', cursive;
   font-weight: 500;
   font-size: 24px;
@@ -766,7 +766,7 @@ margin: -40% 0 0 0;
 }
 .numeros5 {
   order: 3;
-  margin: 0 -15% 0 0;
+  margin: 0 -15% 0 18%;
   font-family: 'Baloo Tamma 2', cursive;
   font-weight: 500;
   font-size: 24px;
@@ -797,7 +797,7 @@ margin: -40% 0 0 0;
 }
 .numeros6 {
   order: 3;
-  margin: 0 -15% 0 0;
+  margin: 0 -15% 0 16%;
   font-family: 'Baloo Tamma 2', cursive;
   font-weight: 500;
   font-size: 24px;
@@ -826,16 +826,13 @@ margin: -40% 0 0 0;
 .Lupa {
   /* position: absolute; revisar el uso excesivo de position absolute */
   /* left: 867px; */
-  background: #ffffff;
-  box-shadow: 0px 7px 76px rgba(146, 53, 46, 0.18);
   border-radius: 4.16667px;
 }
 .Otros {
   /* position: absolute; revisar el uso excesivo de position absolute */
   /* left: -50px; */
   /* top: 20px; */
-  background: #ffffff;
-  box-shadow: 0px 5px 50px rgba(104, 33, 28, 0.1);
+
   border-radius: 5px;
 }
 .MapaMayor {
