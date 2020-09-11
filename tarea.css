@@ -663,24 +663,17 @@ margin: -40% 0 0 0;
   color: #13615f;
 }
 .paises2 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
-  width: 393px;
-  height: 37px;
-  /* top: 416px; */
+  flex-direction: row;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
 }
 .triangulo2 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
-  width: 23px;
-  height: 13.8px;
-  /* left: 370px; */
-  /* top: 12px; */
+  order: 4;
 }
 .numeros2 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
-  width: 70px;
-  height: 29px;
-  /* left: 279px; */
-  /* top: -15px; */
+  order: 3;
+  margin: 0 -15% 0 0;
   font-family: 'Baloo Tamma 2', cursive;
   font-weight: 500;
   font-size: 24px;
@@ -689,16 +682,11 @@ margin: -40% 0 0 0;
   color: #035755;
 }
 .bandera2 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
-  width: 49px;
-  height: 35px;
+  order: 1;
 }
 .pais2 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
-  width: 53px;
-  height: 37px;
-  /* left: 76px; */
-  /* top: -25px; */
+  order: 2;
+  margin: 0 0 0 -15%;
   font-family: 'Baloo Tamma 2', cursive;
   font-weight: 500;
   font-size: 31px;
@@ -706,24 +694,17 @@ margin: -40% 0 0 0;
   color: #13615f;
 }
 .paises3 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
-  width: 393px;
-  height: 37px;
-  /* top: 340px; */
+  flex-direction: row;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
 }
 .triangulo3 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
-  width: 23px;
-  height: 13.8px;
-  /* left: 370px; */
-  /* top: 12px; */
+  order: 4;
 }
 .numeros3 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
-  width: 70px;
-  height: 29px;
-  /* left: 279px; */
-  /* top: -15px; */
+  order: 3;
+  margin: 0 -15% 0 0;
   font-family: 'Baloo Tamma 2', cursive;
   font-weight: 500;
   font-size: 24px;
@@ -732,16 +713,11 @@ margin: -40% 0 0 0;
   color: #035755;
 }
 .bandera3 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
-  width: 49px;
-  height: 35px;
+  order: 1;
 }
 .pais3 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
-  width: 53px;
-  height: 37px;
-  /* left: 76px; */
-  /* top: -25px; */
+  order: 2;
+  margin: 0 0 0 -15%;
   font-family: 'Baloo Tamma 2', cursive;
   font-weight: 500;
   font-size: 31px;
@@ -749,24 +725,17 @@ margin: -40% 0 0 0;
   color: #13615f;
 }
 .paises4 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
-  width: 393px;
-  height: 37px;
-  /* top: 112px; */
+  flex-direction: row;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
 }
 .triangulo4 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
-  width: 23px;
-  height: 13.8px;
-  /* left: 370px; */
-  /* top: 12px; */
+  order: 4;
 }
 .numeros4 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
-  width: 70px;
-  height: 29px;
-  /* left: 279px; */
-  /* top: -15px; */
+  order: 3;
+  margin: 0 -15% 0 0;
   font-family: 'Baloo Tamma 2', cursive;
   font-weight: 500;
   font-size: 24px;
@@ -775,16 +744,11 @@ margin: -40% 0 0 0;
   color: #035755;
 }
 .bandera4 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
-  width: 49px;
-  height: 35px;
+  order: 1;
 }
 .pais4 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
-  width: 53px;
-  height: 37px;
-  /* left: 76px; */
-  /* top: -25px; */
+  order: 2;
+  margin: 0 0 0 -15%;
   font-family: 'Baloo Tamma 2', cursive;
   font-weight: 500;
   font-size: 31px;
@@ -792,24 +756,17 @@ margin: -40% 0 0 0;
   color: #13615f;
 }
 .paises5 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
-  width: 393px;
-  height: 37px;
-  /* top: 188px; */
+  flex-direction: row;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
 }
 .triangulo5 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
-  width: 23px;
-  height: 13.8px;
-  /* left: 370px; */
-  /* top: 12px; */
+  order: 4;
 }
 .numeros5 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
-  width: 70px;
-  height: 29px;
-  /* left: 279px; */
-  /* top: -15px; */
+  order: 3;
+  margin: 0 -15% 0 0;
   font-family: 'Baloo Tamma 2', cursive;
   font-weight: 500;
   font-size: 24px;
@@ -818,16 +775,11 @@ margin: -40% 0 0 0;
   color: #035755;
 }
 .bandera5 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
-  width: 49px;
-  height: 35px;
+  order: 1;
 }
 .pais5 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
-  width: 53px;
-  height: 37px;
-  /* left: 76px; */
-  /* top: -25px; */
+  order: 2;
+  margin: 0 0 0 -15%;
   font-family: 'Baloo Tamma 2', cursive;
   font-weight: 500;
   font-size: 31px;
@@ -835,24 +787,17 @@ margin: -40% 0 0 0;
   color: #13615f;
 }
 .paises6 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
-  width: 393px;
-  height: 37px;
-  /* top: 264px; */
+  flex-direction: row;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
 }
 .triangulo6 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
-  width: 23px;
-  height: 13.8px;
-  /* left: 370px; */
-  /* top: 12px; */
+  order: 4;
 }
 .numeros6 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
-  width: 70px;
-  height: 29px;
-  /* left: 279px; */
-  /* top: -15px; */
+  order: 3;
+  margin: 0 -15% 0 0;
   font-family: 'Baloo Tamma 2', cursive;
   font-weight: 500;
   font-size: 24px;
@@ -861,16 +806,11 @@ margin: -40% 0 0 0;
   color: #035755;
 }
 .bandera6 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
-  width: 49px;
-  height: 35px;
+  order: 1;
 }
 .pais6 {
-  /* position: absolute; revisar el uso excesivo de position absolute */
-  width: 53px;
-  height: 37px;
-  /* left: 76px; */
-  /* top: -25px; */
+  order: 2;
+  margin: 0 0 0 -15%;
   font-family: 'Baloo Tamma 2', cursive;
   font-weight: 500;
   font-size: 31px;
