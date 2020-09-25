@@ -914,7 +914,7 @@ margin: -40% 0 0 0;
   text-align: center;
 }
 .gmail {
-  margin: 0 0 0 5%;
+  margin: 0 0 0 20%;
   font-family: 'Baloo Tamma 2', cursive;
   font-size: 22px;
   color: #758681;
@@ -925,9 +925,16 @@ margin: -40% 0 0 0;
   justify-content: space-between;
 }
 .paginaswebs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 29px;
+  width: 200px;
 }
-.imageContainer {
-}
+.facebook
+.youtube
+.Vrara
+.twiter
 .centro {
 }
 .copyright {
