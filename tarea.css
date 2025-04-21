@@ -1,1378 +1,677 @@
-/* KENYAAA ahí cambie todos los se debian... me escribes cuando lo veas pa que me avises si esta bien */
-.fondo {
-  width: 2188px;
-  height: 1155px;
-  margin: auto;
-  background: #e5e5e5;
-}
-.pagina {
-  position: relative;
-  width: 1920px;
-  height: 8133px;
-  background: #ffffff;
-  text-align: justify;
-  margin: auto;
-}
-.rectangulo1 {
-  position: relative;
-  width: 1920px;
-  height: 1061px;
-}
-.logo {
-  position: relative; /* revisar el uso excesivo de position absolute */
-  width: 191.82px;
-  height: 65px;
-  left: 238px;
-  top: 31px;
-}
-.virus {
-  position: relative; /* revisar el uso excesivo de position absolute */
-  left: 1px;
-  top: 20px;
-  height: 63px;
-  width: 63px;
-}
-.covid-19 {
-  position: absolute; /* no  */
-  top: 22px;
-  left: 78px;
-  width: 112px;
-  height: 23px;
-  font-family: 'Red Hat Display', sans-serif;
-  font-weight: bold;
-  font-size: 19px;
-  text-transform: uppercase;
-  color: #035755;
-}
-.obciones {
-  position: absolute; /* no  */
-  width: 574px;
-  height: 70px;
-  left: 913px;
-  top: 52px;
-}
-.Overview {
-  position: absolute; /* no */
-  width: 100px;
-  height: 28px;
-  left: 0px;
-  font-family: 'Baloo Tamma 2', cursive;
-  font-size: 18px;
-  line-height: 28px;
-  color: #fb4c47;
-}
-.Contagion {
-  position: absolute; /* no */
-  width: 100px;
-  height: 28px;
-  right: 330.5px;
-  font-family: 'Baloo Tamma 2', cursive;
-  font-size: 18px;
-  line-height: 28px;
-  color: #00402e;
-}
-.Symptoms {
-  position: absolute; /* no */
-  width: 100px;
-  height: 28px;
-  left: 287px;
-  font-family: 'Baloo Tamma 2', cursive;
-  font-size: 18px;
-  line-height: 28px;
-  color: #00402e;
-}
-.prevetion {
-  position: absolute; /* no */
-  width: 100px;
-  height: 28px;
-  left: 430.5px;
-  font-family: 'Baloo Tamma 2', cursive;
-  font-size: 18px;
-  line-height: 28px;
-  color: #00402e;
-}
-.button1 {
-  position: absolute; /* no */
-  width: 154px;
-  height: 55px;
-  left: 1527px;
-  top: 46px;
-  border: 2px solid #fb4c47;
+/* Reset y estilos base */
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  border-radius: 46px;
-}
-.contac {
-  font-family: 'Baloo Tamma 2', cursive;
-  font-size: 22px;
-  color: #ff383d;
-  top: 16px;
-  left: 45px;
-}
-.text {
-  position: relative; /* revisar el uso excesivo de position absolute */
-  width: 633px;
-  height: 443px;
-  left: 243px;
-  top: 411px;
-}
-.portada {
-  width: 633px;
-  height: 194px;
-}
-.titulorosa {
-  font-family: 'Red Hat Display', sans-serif;
-  color: #fa5652;
-}
-.tituto {
-  font-weight: bold;
-  font-size: 39px;
-  line-height: 122%;
-  font-family: 'Red Hat Display', sans-serif;
-}
-.info {
-  position: absolute; /* no */
-  width: 641px;
-  height: 86px;
-  top: 223px;
-  bottom: 134px;
-  font-weight: normal;
-  font-family: 'Baloo Tamma 2', cursive;
-  font-size: 24px;
-  line-height: 160%;
-}
-.button2 {
-  position: absolute; /* no */
-  width: 250px;
-  height: 80px;
-  top: 400px;
-  bottom: 0px;
-  background: #fb4c47;
-  box-shadow: 0px 18px 100px rgba(0, 0, 0, 0.1);
-  border-radius: 65px;
-  font-family: 'Baloo Tamma 2', cursive;
-  text-transform: capitalize;
-  font-size: 24px;
-}
-.dibujo {
-  position: absolute; /* no */
-  width: 1177px;
-  height: 812px;
-  left: 863px;
-  top: 147px;
-}
-.rectangulo2 {
-  position: relative;
-  height: 974.25px;
-  width: 2254.93px;
-  top: 20px;
-  left: -138.41px;
-}
-.portada2 {
-  position: relative; /* revisar el uso excesivo de position absolute */
-  width: 288px;
-  height: 107px;
-  left: 1033px;
-  top: 200px;
-  line-height: 124%;
-}
-.titulorosa2 {
-  font-family: 'Red Hat Display', sans-serif;
-  color: #fa5652;
-  font-weight: bold;
-  font-size: 29px;
-}
-.tituto2 {
-  font-family: 'Red Hat Display', sans-serif;
-  font-weight: bold;
-  font-size: 50px;
-}
-.info2 {
-  position: absolute; /* no */
-  width: 648px;
-  height: 200px;
-  left: 1033px;
-  top: 330px;
-  font-family: 'Baloo Tamma 2', cursive;
-  font-size: 20px;
-  line-height: 215%;
-  text-transform: capitalize;
-  color: #4b4f51;
-}
-.button3 {
-  position: absolute; /* no */
-  width: 200px;
-  height: 65px;
-  left: 1033px;
-  top: 700px;
-  background: rgba(250, 86, 82, 0.15);
-  border-radius: 65px;
-}
-.learnmore {
-  text-align: center;
-  font-family: 'Baloo Tamma 2', cursive;
-  font-weight: 600;
-  font-size: 20px;
-  text-transform: capitalize;
-  color: #000000;
-}
-.dibujo2 {
-  width: 979.42px;
-  height: 796.36px;
-  left: -138.41px;
-  top: 1079px;
-  transform: rotate(-10.07deg);
-}
-.virus1 {
-  position: absolute; /* no */
-  left: 1800px;
-  right: -13.85%;
-  top: 70.88%;
-}
-.virus2 {
-  position: absolute; /* no */
-  left: 1850px;
-  top: 35.14%;
-}
-.rectangulo3 {
-  position: relative;
-  width: 1580px;
-  height: 896px;
-  left: 100px;
-  top: 20px;
-}
-.contagion {
-  position: relative; /* revisar el uso excesivo de position absolute */
-  width: 248px;
-  height: 107px;
-  left: 736px;
-  line-height: 4%;
-  align-items: center;
-}
-.titulorosa3 {
-  font-family: 'Red Hat Display', sans-serif;
-  color: #fa5652;
-  font-size: 29px;
-  text-align: center;
-}
-.titulo3 {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 100%;
-  font-family: 'Red Hat Display', sans-serif;
-  text-align: center;
-}
-.info3 {
-  position: absolute; /* no */
-  width: 650px;
-  height: 71px;
-  left: 540px;
-  top: 138px;
-  font-family: 'Baloo Tamma 2', cursive;
-  font-size: 18px;
-  line-height: 215%;
-  text-align: center;
-  text-transform: capitalize;
-  color: #4b4f51;
-}
-.noseRag {
-  position: absolute; /* no */
-  width: 460px;
-  height: 575px;
-  left: 1120px;
-  top: 321px;
-  box-shadow: 0px 5px 80px rgba(0, 0, 0, 0.08);
-  border-radius: 10px;
-}
-.group1 {
-  position: relative; /* revisar el uso excesivo de position absolute */
-  width: 361px;
-  height: 442px;
-  left: 100px;
-  top: 58px;
-}
-.vaso {
-  position: relative; /* revisar el uso excesivo de position absolute */
-  width: 274.8px;
-  height: 253.9px;
-}
-.infoVaso {
-  position: absolute; /* no */
-  width: 361px;
-  height: 132px;
-  top: 360px;
-}
-.infoVasoparte1 {
-  position: absolute; /* no */
-  width: 361px;
-  height: 66px;
-  bottom: 160px;
-  right: 48px;
-  font-family: 'Baloo Tamma 2', cursive;
-  font-size: 32px;
-  text-align: center;
-  text-transform: capitalize;
-  color: #4b4f51;
-}
-.infoVasoparte2 {
-  position: absolute; /* no */
-  width: 305px;
-  height: 153px;
-  bottom: 5px;
-  right: 70px;
-  font-family: 'Baloo Tamma 2', cursive;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 137%;
-  text-transform: capitalize;
-  color: #035755;
-}
-.handWash {
-  position: absolute; /* no */
-  width: 460px;
-  height: 575px;
-  left: 630px;
-  top: 320px;
-}
-.group2 {
-  position: relative; /* revisar el uso excesivo de position absolute */
-  width: 340px;
-  height: 479px;
-  left: 80px;
-  top: 22px;
-}
-.manos {
-  position: relative; /* revisar el uso excesivo de position absolute */
-  width: 284px;
-  height: 293.88px;
-  left: 60px;
-}
-.infoManos {
-  position: absolute; /* no */
-  width: 360px;
-  height: 232px;
-  top: 287px;
-}
-.infomanosparte1 {
-  position: absolute; /* no */
-  width: 340px;
-  height: 100px;
-  font-family: 'Baloo Tamma 2', cursive;
-  font-size: 36px;
-  line-height: 185%;
-  text-align: center;
-  text-transform: capitalize;
-  color: #4b4f51;
-}
-.infomanosparte2 {
-  position: absolute; /* no */
-  width: 340px;
-  height: 66px;
-  top: 70px;
-  left: -20px;
-  font-family: 'Baloo Tamma 2', cursive;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 147%;
-  text-transform: capitalize;
-  color: #035755;
-}
-.wearMask {
-  position: absolute; /* no */
-  width: 461px;
-  height: 575px;
-  left: 139px;
-  top: 320px;
-  bottom: 1px;
-}
-.group3 {
-  position: relative; /* revisar el uso excesivo de position relative */
-  width: 355px;
-  height: 432px;
-  left: 133px;
-  top: 65px;
-}
-.Estornudos {
-  position: relative; /* revisar el uso excesivo de position absolute */
-  width: 269.5px;
-  height: 249px;
-  left: 345px;
-}
-.infoEstornudos {
-  position: absolute; /* no */
-  width: 355px;
-  height: 228px;
-  top: 260px;
-}
-.infoEstornudosparte1 {
-  position: absolute; /* no */
-  width: 355px;
-  height: 62px;
-  left: -47px;
-  font-family: 'Baloo Tamma 2', cursive;
-  font-size: 18px;
-  line-height: 185%;
-  text-align: center;
-  text-transform: capitalize;
-  color: #4b4f51;
-}
-.infoEstornudosparte2 {
-  position: absolute; /* no */
-  width: 355px;
-  height: 88px;
-  top: 60px;
-  left: -50px;
-  font-family: 'Baloo Tamma 2', cursive;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 147%;
-  text-transform: capitalize;
-  color: #035755;
-}
-.rectangle {
-  position: relative; /* revisar el uso excesivo de position absolute */
-  width: 460px;
-  height: 6px;
-  top: 255px;
-  left: -100px;
-  background: #fa5652;
-  border-radius: 0px 0px 100px 100px;
-}
-.rectangle2 {
-  position: relative; /* revisar el uso excesivo de position absolute */
-  width: 460px;
-  height: 575px;
-  top: -330px;
-  left: -100px;
-  box-shadow: 0px 35px 87px rgba(0, 0, 0, 0.11);
-  border-radius: 10px;
-}
-.virus3 {
-  position: absolute; /* no */
-  top: -100px;
-  left: -320px;
-  transform: matrix(1, 0, 0, -1, 0, 0);
-}
-.rectangulo4 {
-  position: relative;
-  width: 1791.06px;
-  height: 1099.34px;
-  left: 91px;
-  top: 20px;
-}
-.covid-19-simptomps {
-  position: relative; /* revisar el uso excesivo de position absolute */
-  width: 289px;
-  height: 107px;
-  left: 724px;
-}
-.titulorosa4 {
-  font-family: 'Red Hat Display', sans-serif;
-  font-weight: bold;
-  font-size: 29px;
-  line-height: 124%;
-  text-align: center;
-  color: #fa5652;
-}
-.titulo4 {
-  font-family: 'Red Hat Display', sans-serif;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 124%;
-  text-align: center;
-}
-.info4 {
-  position: absolute; /* no */
-  width: 716px;
-  height: 71px;
-  left: 511px;
-  top: 138px;
-  font-family: 'Baloo Tamma 2', cursive;
-  font-size: 18px;
-  line-height: 215%;
-  text-align: center;
-  text-transform: capitalize;
-  color: #4b4f51;
-}
-.dibujo-de-la-niña2 {
-  position: relative; /* revisar el uso excesivo de position absolute */
-  width: 1167.68px;
-  height: 871.58px;
-  left: 285.66px;
-  top: 206.1px;
-}
-.cosa-transparente1 {
-  position: absolute; /* no */
-  width: 220.36px;
-  height: 148.16;
-  left: 1551.76px;
-  top: 921.16px;
-  transform: matrix(0.99, -0.14, -0.14, -0.99, 0, 0);
-}
-.cosa-transparente2 {
-  position: absolute; /* no */
-  width: 129.22px;
-  height: 134.03px;
-  top: 740px;
-  transform: rotate(-21.24deg);
-}
-.rectangulo5 {
-  position: relative;
-  width: 2209px;
-  height: 2651.88px;
-  left: -136px;
-  top: 20px;
-}
-.heading {
-  position: relative; /* revisar el uso excesivo de position absolute */
-  width: 650px;
-  height: 209px;
-  left: 771px;
-}
-.covid19-what-should-we-do {
-  position: relative; /* revisar el uso excesivo de position absolute */
-  width: 473px;
-  height: 107px;
-  left: 89px;
-}
-.titulorosa5 {
-  font-family: 'Red Hat Display', sans-serif;
-  font-weight: bold;
-  font-size: 29px;
-  line-height: 124%;
-  text-align: center;
-  color: #fa5652;
-}
-.titulo5 {
-  font-family: 'Red Hat Display', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 124%;
-  text-align: center;
-}
-.info5 {
-  position: absolute; /* no */
-  width: 650px;
-  height: 71px;
-  top: 138px;
-  font-family: 'Baloo Tamma 2', cursive;
-  font-size: 18px;
-  line-height: 215%;
-  text-align: center;
-  text-transform: capitalize;
-  color: #4b4f51;
-}
-.grupo1 {
-  position: absolute; /* no */
-  width: 1352.65px;
-  height: 574.98px;
-  left: 379px;
-  top: 281px;
-}
-.niñaconmascara {
-  position: relative; /* revisar el uso excesivo de position absolute */
-  width: 555.65px;
-  height: 574.98px;
-  left: 804px;
-}
-.infomasks {
-  position: absolute; /* no */
-  width: 647px;
-  height: 252px;
-  top: 166.98px;
-}
-.numero1 {
-  position: relative; /* revisar el uso excesivo de position absolute */
-  width: 75px;
-  height: 75px;
-}
-.num1 {
-  position: absolute; /* no */
-  width: 50px;
-  height: 51px;
-  left: 13px;
-  top: -20px;
-  font-family: 'Red Hat Display', sans-serif;
-  font-weight: bold;
-  font-size: 44px;
-  line-height: 145%;
-  text-transform: capitalize;
-  color: #fa5652;
-}
-.circulo1 {
-  position: absolute; /* no */
-  width: 75px;
-  height: 75px;
-  background: #fa5652;
-  opacity: 0.15;
-  border-radius: 100%;
-}
-.tituloNum1 {
-  position: absolute; /* no */
-  width: 352px;
-  height: 69px;
-  top: 3px;
-  left: 115px;
-  font-family: 'Baloo Tamma 2', cursive;
-  font-weight: 500;
-  font-size: 47px;
-  line-height: 147%;
-  text-transform: capitalize;
-  color: #035755;
-}
-.infoNum1 {
-  position: absolute; /* no */
-  width: 532px;
-  height: 160px;
-  left: 115px;
-  top: 92px;
-  font-family: 'Baloo Tamma 2', cursive;
-  font-size: 18px;
-  line-height: 221%;
-  text-transform: capitalize;
-  color: #4b4f51;
-}
-.grupo2 {
-  position: absolute; /* no */
-  width: 1324px;
-  height: 584.89px;
-  left: 379px;
-  top: 840px;
-}
-.niñalavandoselasmanos {
-  position: relative; /* revisar el uso excesivo de position absolute */
-  width: 564.88px;
-  height: 584.89px;
-}
-.infowash {
-  position: absolute; /* no */
-  width: 611px;
-  height: 275.89px;
-  top: 155px;
-  left: 713px;
-}
-.numero2 {
-  position: relative; /* revisar el uso excesivo de position absolute */
-  width: 75px;
-  height: 75px;
-}
-.num2 {
-  position: absolute; /* no */
-  width: 50px;
-  height: 51px;
-  left: 9px;
-  top: -20px;
-  font-family: 'Red Hat Display', sans-serif;
-  font-weight: bold;
-  font-size: 44px;
-  line-height: 145%;
-  text-transform: capitalize;
-  color: #fa5652;
-}
-.circulo2 {
-  position: absolute; /* no */
-  width: 75px;
-  height: 75px;
-  background: #fa5652;
-  opacity: 0.15;
-  border-radius: 100%;
-}
-.tituloNum2 {
-  position: absolute; /* no */
-  width: 389px;
-  height: 54px;
-  top: 3px;
-  left: 123px;
-  font-family: 'Baloo Tamma 2', cursive;
-  font-weight: 500;
-  font-size: 47px;
-  line-height: 147%;
-  text-transform: capitalize;
-  color: #035755;
-}
-.infoNum2 {
-  position: absolute; /* no */
-  width: 488px;
-  height: 187px;
-  left: 123px;
-  top: 88.89px;
-  font-family: 'Baloo Tamma 2', cursive;
-  font-size: 18px;
-  line-height: 221%;
-  text-transform: capitalize;
-  color: #4b4f51;
-}
-.grupo3 {
-  position: absolute; /* no */
-  width: 1441.67px;
-  height: 567px;
-  left: 380px;
-  top: 1410px;
-}
-.niñausandopañoelo {
-  position: relative; /* revisar el uso excesivo de position absolute */
-  width: 573.21px;
-  height: 567px;
-  left: 876.37px;
-}
-.infopañuelo {
-  position: absolute; /* no */
-  width: 652px;
-  height: 252px;
-  top: 158px;
-}
-.numero3 {
-  position: relative; /* revisar el uso excesivo de position absolute */
-  width: 75px;
-  height: 75px;
-}
-.num3 {
-  position: absolute; /* no */
-  width: 63px;
-  height: 48px;
-  left: 7px;
-  top: -20px;
-  font-family: 'Red Hat Display', sans-serif;
-  font-weight: bold;
-  font-size: 44px;
-  line-height: 145%;
-  text-transform: capitalize;
-  color: #fa5652;
-}
-.circulo3 {
-  position: absolute; /* no */
-  width: 75px;
-  height: 75px;
-  background: #fa5652;
-  opacity: 0.15;
-  border-radius: 100%;
-}
-.tituloNum3 {
-  position: absolute; /* no */
-  width: 360px;
-  height: 52px;
-  top: 3px;
-  left: 120px;
-  font-family: 'Baloo Tamma 2', cursive;
-  font-weight: 500;
-  font-size: 47px;
-  line-height: 147%;
-  text-transform: capitalize;
-  color: #035755;
-}
-.infoNum3 {
-  position: absolute; /* no */
-  width: 532px;
-  height: 161px;
-  left: 120px;
-  top: 91px;
-  font-family: 'Baloo Tamma 2', cursive;
-  font-size: 18px;
-  line-height: 221%;
-  text-transform: capitalize;
-  color: #4b4f51;
-}
-.grupo4 {
-  position: absolute; /* no */
-  width: 1358px;
-  height: 689.88px;
-  left: 366.14px;
-  top: 1962px;
-}
-.niñaevadiendocontacto {
-  position: relative; /* revisar el uso excesivo de position absolute */
-  width: 656.79px;
-  height: 689.88px;
-}
-.infoavoid-contact {
-  position: absolute; /* no */
-  width: 611px;
-  height: 275.89px;
-  top: 218px;
-  left: 713px;
-}
-.numero4 {
-  position: relative; /* revisar el uso excesivo de position absolute */
-  width: 75px;
-  height: 75px;
-}
-.num4 {
-  position: absolute; /* no */
-  width: 66px;
-  height: 65px;
-  left: 5.4px;
-  top: -20px;
-  font-family: 'Red Hat Display', sans-serif;
-  font-weight: bold;
-  font-size: 44px;
-  line-height: 145%;
-  text-transform: capitalize;
-  color: #fa5652;
-}
-.circulo4 {
-  position: absolute; /* no */
-  width: 75px;
-  height: 75px;
-  background: #fa5652;
-  opacity: 0.15;
-  border-radius: 100%;
-}
-.tituloNum4 {
-  position: absolute; /* no */
-  width: 389px;
-  height: 50px;
-  top: 3px;
-  left: 113px;
-  font-family: 'Baloo Tamma 2', cursive;
-  font-weight: 500;
-  font-size: 47px;
-  line-height: 147%;
-  text-transform: capitalize;
-  color: #035755;
-}
-.infoNum4 {
-  position: absolute; /* no */
-  width: 488px;
-  height: 187px;
-  left: 113px;
-  top: 94.76px;
-  font-family: 'Baloo Tamma 2', cursive;
-  font-size: 18px;
-  line-height: 221%;
-  text-transform: capitalize;
-  color: #4b4f51;
-}
-.virusrectangulo5 {
-  position: relative; /* revisar el uso excesivo de position absolute */
-  width: 2209px;
-  height: 1833px;
-  top: 620px;
-}
-.virusverduso {
-  position: absolute; /* no */
-  top: 1362px;
-  left: 1896px;
-}
-.virusrosadusomedio {
-  position: absolute; /* no */
-  top: 0px;
-  left: 131px;
-}
-.virusuverdusomedio {
-  position: absolute; /* no */
-  top: 1509px;
-  left: 1894px;
-}
-.rectangulo6 {
-  position: relative;
-  width: 1912.67px;
-  height: 1284.88px;
-  left: 183.92px;
-  top: 20px;
-}
-.liverReports {
-  position: relative; /* revisar el uso excesivo de position absolute */
-  width: 1483px;
-  height: 635px;
-  left: 58.8px;
-}
-.reporte {
-  position: absolute; /* no */
-  width: 504px;
-  height: 635px;
-  left: 1037.08px;
-  top: 54px;
-}
-.grupodepaises {
-  position: relative; /* revisar el uso excesivo de position absolute */
-  width: 394px;
-  height: 529px;
-  left: 55px;
-  top: 54px;
-}
-.LasFlechitas {
-  position: relative; /* revisar el uso excesivo de position absolute */
-  width: 86px;
-  height: 48.95px;
-  left: 307px;
-  top: 9px;
-}
-.linea {
-  position: relative; /* revisar el uso excesivo de position absolute */
-  width: 19.58px;
-  height: 0px;
-  left: 30.34px;
-  top: 13.55px;
-  border: 2.23px solid #dee1ed;
-  transform: rotate(90deg);
-}
-.vectorD {
-  position: absolute; /* no */
-  width: 7.34px;
-  height: 14.69px;
-  left: 62.18px;
-  top: 17.07px;
-}
-.vectorI {
-  position: absolute; /* no */
-  width: 7.34px;
-  height: 14.69px;
-  left: 15.88px;
-  top: 17.2px;
-}
-.titulodelreporte {
-  position: absolute; /* no */
-  width: 256px;
-  height: 58px;
-  top: -30px;
-  font-family: 'Baloo Tamma 2', cursive;
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 58px;
-  color: #035755;
-}
-.paises1 {
-  position: absolute; /* no */
-  width: 393px;
-  height: 37px;
-  top: 492px;
-}
-.triangulo1 {
-  position: relative; /* revisar el uso excesivo de position absolute */
-  width: 23px;
-  height: 13.8px;
-  left: 370px;
-  top: 12px;
-}
-.numeros1 {
-  position: absolute; /* no */
-  width: 70px;
-  height: 29px;
-  left: 279px;
-  top: -15px;
-  font-family: 'Baloo Tamma 2', cursive;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 29px;
-  text-align: right;
-  color: #035755;
-}
-.bandera1 {
-  position: absolute; /* no */
-  width: 49px;
-  height: 35px;
-}
-.pais1 {
-  position: absolute; /* no */
-  width: 53px;
-  height: 37px;
-  left: 76px;
-  top: -25px;
-  font-family: 'Baloo Tamma 2', cursive;
-  font-weight: 500;
-  font-size: 31px;
-  line-height: 37px;
-  color: #13615f;
-}
-.paises2 {
-  position: absolute; /* no */
-  width: 393px;
-  height: 37px;
-  top: 416px;
-}
-.triangulo2 {
-  position: relative; /* revisar el uso excesivo de position absolute */
-  width: 23px;
-  height: 13.8px;
-  left: 370px;
-  top: 12px;
-}
-.numeros2 {
-  position: absolute; /* no */
-  width: 70px;
-  height: 29px;
-  left: 279px;
-  top: -15px;
-  font-family: 'Baloo Tamma 2', cursive;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 29px;
-  text-align: right;
-  color: #035755;
-}
-.bandera2 {
-  position: absolute; /* no */
-  width: 49px;
-  height: 35px;
-}
-.pais2 {
-  position: absolute; /* no */
-  width: 53px;
-  height: 37px;
-  left: 76px;
-  top: -25px;
-  font-family: 'Baloo Tamma 2', cursive;
-  font-weight: 500;
-  font-size: 31px;
-  line-height: 37px;
-  color: #13615f;
-}
-.paises3 {
-  position: absolute; /* no */
-  width: 393px;
-  height: 37px;
-  top: 340px;
-}
-.triangulo3 {
-  position: relative; /* revisar el uso excesivo de position absolute */
-  width: 23px;
-  height: 13.8px;
-  left: 370px;
-  top: 12px;
-}
-.numeros3 {
-  position: absolute; /* no */
-  width: 70px;
-  height: 29px;
-  left: 279px;
-  top: -15px;
-  font-family: 'Baloo Tamma 2', cursive;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 29px;
-  text-align: right;
-  color: #035755;
-}
-.bandera3 {
-  position: absolute; /* no */
-  width: 49px;
-  height: 35px;
-}
-.pais3 {
-  position: absolute; /* no */
-  width: 53px;
-  height: 37px;
-  left: 76px;
-  top: -25px;
-  font-family: 'Baloo Tamma 2', cursive;
-  font-weight: 500;
-  font-size: 31px;
-  line-height: 37px;
-  color: #13615f;
-}
-.paises4 {
-  position: absolute; /* no */
-  width: 393px;
-  height: 37px;
-  top: 112px;
-}
-.triangulo4 {
-  position: relative; /* revisar el uso excesivo de position absolute */
-  width: 23px;
-  height: 13.8px;
-  left: 370px;
-  top: 12px;
-}
-.numeros4 {
-  position: absolute; /* no */
-  width: 70px;
-  height: 29px;
-  left: 279px;
-  top: -15px;
-  font-family: 'Baloo Tamma 2', cursive;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 29px;
-  text-align: right;
-  color: #035755;
-}
-.bandera4 {
-  position: absolute; /* no */
-  width: 49px;
-  height: 35px;
-}
-.pais4 {
-  position: absolute; /* no */
-  width: 53px;
-  height: 37px;
-  left: 76px;
-  top: -25px;
-  font-family: 'Baloo Tamma 2', cursive;
-  font-weight: 500;
-  font-size: 31px;
-  line-height: 37px;
-  color: #13615f;
-}
-.paises5 {
-  position: absolute; /* no */
-  width: 393px;
-  height: 37px;
-  top: 188px;
-}
-.triangulo5 {
-  position: relative; /* revisar el uso excesivo de position absolute */
-  width: 23px;
-  height: 13.8px;
-  left: 370px;
-  top: 12px;
-}
-.numeros5 {
-  position: absolute; /* no */
-  width: 70px;
-  height: 29px;
-  left: 279px;
-  top: -15px;
-  font-family: 'Baloo Tamma 2', cursive;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 29px;
-  text-align: right;
-  color: #035755;
-}
-.bandera5 {
-  position: absolute; /* no */
-  width: 49px;
-  height: 35px;
-}
-.pais5 {
-  position: absolute; /* no */
-  width: 53px;
-  height: 37px;
-  left: 76px;
-  top: -25px;
-  font-family: 'Baloo Tamma 2', cursive;
-  font-weight: 500;
-  font-size: 31px;
-  line-height: 37px;
-  color: #13615f;
-}
-.paises6 {
-  position: absolute; /* no */
-  width: 393px;
-  height: 37px;
-  top: 264px;
-}
-.triangulo6 {
-  position: relative; /* revisar el uso excesivo de position absolute */
-  width: 23px;
-  height: 13.8px;
-  left: 370px;
-  top: 12px;
-}
-.numeros6 {
-  position: absolute; /* no */
-  width: 70px;
-  height: 29px;
-  left: 279px;
-  top: -15px;
-  font-family: 'Baloo Tamma 2', cursive;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 29px;
-  text-align: right;
-  color: #035755;
-}
-.bandera6 {
-  position: absolute; /* no */
-  width: 49px;
-  height: 35px;
-}
-.pais6 {
-  position: absolute; /* no */
-  width: 53px;
-  height: 37px;
-  left: 76px;
-  top: -25px;
-  font-family: 'Baloo Tamma 2', cursive;
-  font-weight: 500;
-  font-size: 31px;
-  line-height: 37px;
-  color: #13615f;
 }
 
-.RectanguleDeLupayOtros {
-  position: relative; /* revisar el uso excesivo de position absolute */
-  width: 943px;
-  height: 223px;
+:root {
+  --primary-color: #fb4c47;
+  --secondary-color: #035755;
+  --text-color: #4b4f51;
+  --light-color: #ffffff;
+  --font-primary: 'Red Hat Display', sans-serif;
+  --font-secondary: 'Baloo Tamma 2', cursive;
 }
-.Lupa {
-  position: relative; /* revisar el uso excesivo de position absolute */
-  left: 867px;
-  background: #ffffff;
-  box-shadow: 0px 7px 76px rgba(146, 53, 46, 0.18);
-  border-radius: 4.16667px;
+
+body {
+  font-family: var(--font-secondary);
+  color: var(--text-color);
+  line-height: 1.6;
+  overflow-x: hidden;
 }
-.Otros {
-  position: absolute; /* no */
-  left: -50px;
-  top: 20px;
-  background: #ffffff;
-  box-shadow: 0px 5px 50px rgba(104, 33, 28, 0.1);
-  border-radius: 5px;
+
+img {
+  max-width: 100%;
+  height: auto;
 }
-.MapaMayor {
-  position: absolute; /* no */
-  width: 1347.37px;
-  height: 569.99px;
-  top: 125px;
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
-.Maskgroup {
-  position: relative; /* revisar el uso excesivo de position absolute */
-  width: 997.08px;
-  height: 569.99px;
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
 }
-.virus-transparente1 {
-  position: absolute; /* no */
-  width: 154.2px;
-  height: 150.38px;
-  left: 1207.08px;
-  top: 823px;
+
+/* Header */
+.main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--light-color);
+  padding: 1rem 0;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
-.virus-transparente2 {
-  position: absolute; /* no */
-  width: 373.83px;
-  height: 383.32px;
-  left: 1364.17px;
-  top: 897px;
+
+.main-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.rectangulo7 {
-  position: absolute; /* no pudo cambiar absolute ,queda mal ya que queda dentro del rectangulo6 */
-  width: 790px;
-  height: 321px;
-  left: 565px;
-  top: 7501px;
+
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
-.sucribete {
-  position: absolute; /* no */
-  left: 65px;
-  font-family: 'Baloo Tamma 2', cursive;
-  font-weight: 500;
-  font-size: 64px;
-  line-height: 77px;
+
+.logo-virus {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.logo-text {
+  font-family: var(--font-primary);
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--secondary-color);
+}
+
+.main-nav ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.main-nav a {
+  font-size: 1rem;
+  color: var(--secondary-color);
+  transition: color 0.3s ease;
+}
+
+.main-nav a:hover,
+.main-nav a.active {
+  color: var(--primary-color);
+}
+
+.contact-btn {
+  padding: 0.5rem 1.5rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 2rem;
+  color: var(--primary-color);
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.contact-btn:hover {
+  background: var(--primary-color);
+  color: var(--light-color);
+}
+
+.hamburger-menu {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.hamburger-menu span {
+  width: 25px;
+  height: 3px;
+  background: var(--secondary-color);
+  transition: all 0.3s ease;
+}
+
+/* Hero Section */
+.hero {
+  padding: 8rem 0 4rem;
+  background: linear-gradient(to bottom, rgba(251, 76, 71, 0.05), transparent);
+}
+
+.hero .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.hero-subtitle {
+  color: var(--primary-color);
+  font-family: var(--font-primary);
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.hero-title {
+  font-family: var(--font-primary);
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  color: var(--secondary-color);
+}
+
+.hero-description {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: var(--text-color);
+}
+
+.hero-btn {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  background: var(--primary-color);
+  color: var(--light-color);
+  border-radius: 3rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  transition: transform 0.3s ease;
+}
+
+.hero-btn:hover {
+  transform: translateY(-3px);
+}
+
+/* What is COVID Section */
+.what-is-covid {
+  padding: 4rem 0;
+  position: relative;
+}
+
+.what-is-covid .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.section-subtitle {
+  color: var(--primary-color);
+  font-family: var(--font-primary);
+  font-size: 1.4rem;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.section-title {
+  font-family: var(--font-primary);
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: var(--secondary-color);
+}
+
+.covid-description {
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.learn-more-btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: rgba(250, 86, 82, 0.15);
+  border-radius: 3rem;
+  color: var(--secondary-color);
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.learn-more-btn:hover {
+  background: var(--primary-color);
+  color: var(--light-color);
+}
+
+.covid-image {
+  position: relative;
+}
+
+.virus-decoration-1,
+.virus-decoration-2 {
+  position: absolute;
+  opacity: 0.5;
+}
+
+.virus-decoration-1 {
+  top: -50px;
+  right: -50px;
+  width: 100px;
+}
+
+.virus-decoration-2 {
+  bottom: -30px;
+  left: -30px;
+  width: 80px;
+}
+
+/* Contagion Section */
+.contagion {
+  padding: 4rem 0;
+  background: #f8f9fa;
+}
+
+.section-header {
+  margin-bottom: 3rem;
+}
+
+.text-center {
   text-align: center;
-  color: #0c6c44;
 }
-.buttom {
-  position: relative; /* revisar el uso excesivo de position absolute */
-  width: 790px;
-  height: 114px;
-  top: 207px;
+
+.section-description {
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto;
+  color: var(--text-color);
 }
-.rectangulobuttom {
-  position: absolute; /* no */
-  width: 209px;
-  height: 78px;
-  left: 564px;
-  top: 18px;
+
+.contagion-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
 }
-.buttomtext {
-  position: relative; /* revisar el uso excesivo de position absolute */
-  left: 81px;
-  top: 26px;
-  font-family: 'Baloo Tamma 2', cursive;
+
+.card {
+  background: var(--light-color);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card img {
+  margin-bottom: 1.5rem;
+  width: 80%;
+  max-width: 250px;
+}
+
+.card h3 {
+  font-family: var(--font-secondary);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--secondary-color);
+}
+
+.card p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.card.featured {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.card.featured::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  background: var(--primary-color);
+  border-radius: 0 0 1rem 1rem;
+}
+
+/* Symptoms Section */
+.symptoms {
+  padding: 4rem 0;
+}
+
+.symptoms-image {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.symptoms-image img {
+  max-width: 800px;
+  width: 100%;
+}
+
+/* Prevention Section */
+.prevention {
+  padding: 4rem 0;
+  background: #f8f9fa;
+}
+
+.prevention-items {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  margin-top: 3rem;
+}
+
+.prevention-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.prevention-item.reverse {
+  direction: rtl;
+}
+
+.prevention-item.reverse > * {
+  direction: ltr;
+}
+
+.prevention-number {
+  font-family: var(--font-primary);
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  opacity: 0.5;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.prevention-content h3 {
+  font-family: var(--font-secondary);
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: var(--secondary-color);
+}
+
+.prevention-image img {
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Live Reports Section */
+.live-reports {
+  padding: 4rem 0;
+}
+
+.reports-wrapper {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+.reports-map img {
+  width: 100%;
+}
+
+.reports-sidebar {
+  background: var(--light-color);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+}
+
+.reports-sidebar h2 {
+  font-family: var(--font-secondary);
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: var(--secondary-color);
+}
+
+.country-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.country-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 0.5rem;
+}
+
+.country-item img {
+  width: 40px;
+}
+
+.country-name {
+  font-family: var(--font-secondary);
+  font-size: 1.2rem;
   font-weight: 500;
-  font-size: 22px;
-  line-height: 26px;
-  color: #ffffff;
 }
-.rectangulobuttom2 {
-  position: absolute; /* no */
-  top: 18px;
-  background: #f44a45;
-  border-radius: 157px;
+
+.country-cases {
+  margin-left: auto;
+  font-family: var(--font-secondary);
+  font-size: 1.2rem;
+  color: var(--secondary-color);
 }
-.rectagulogmail {
-  position: relative; /* revisar el uso excesivo de position absolute */
-  width: 790px;
-  height: 114px;
+
+.country-item.down .country-cases::after {
+  content: '▼';
+  color: var(--primary-color);
+  margin-left: 0.5rem;
 }
-.gmail {
-  position: absolute; /* no */
-  left: 41px;
-  top: 44px;
-  font-family: 'Baloo Tamma 2', cursive;
-  font-size: 22px;
-  line-height: 26px;
-  color: #758681;
+
+/* Newsletter Section */
+.newsletter {
+  padding: 4rem 0;
+  background: linear-gradient(to right, rgba(12, 108, 68, 0.05), rgba(12, 108, 68, 0.1));
 }
-.rectangulo8 {
-  position: absolute; /* tampoco se puede el absolute en este */
-  width: 1444.21px;
-  height: 144px;
-  left: 240.16px;
-  top: 7965px;
+
+.newsletter h2 {
+  font-family: var(--font-secondary);
+  font-size: 2.5rem;
+  color: #0c6c44;
+  text-align: center;
+  margin-bottom: 3rem;
 }
-.logo2 {
-  position: relative; /* revisar el uso excesivo de position absolute */
-  width: 220.84px;
-  height: 72.91px;
+
+.newsletter-form {
+  display: flex;
+  gap: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
 }
-.paginaswebs {
-  position: absolute; /* no */
-  left: 1231.84px;
-  top: 21px;
+
+.newsletter-form input {
+  flex: 1;
+  padding: 1rem 1.5rem;
+  border: none;
+  border-radius: 3rem;
+  font-size: 1rem;
+  font-family: var(--font-secondary);
 }
-.centro {
-  position: absolute; /* no */
-  width: 574px;
-  height: 123px;
-  left: 433.84px;
-  top: 21px;
+
+.newsletter-form button {
+  padding: 1rem 3rem;
+  background: var(--primary-color);
+  color: var(--light-color);
+  border: none;
+  border-radius: 3rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
 }
-.el2020 {
-  position: absolute; /* no */
-  width: 574px;
-  height: 28px;
-  left: 76px;
-  top: 95px;
-  margin: 0px;
-  font-family: 'Baloo Tamma 2', cursive;
-  font-size: 23px;
-  line-height: 28px;
+
+.newsletter-form button:hover {
+  background: #e03c38;
+}
+
+/* Footer */
+.main-footer {
+  padding: 4rem 0 2rem;
+  background: #f8f9fa;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.footer-logo img {
+  width: 40px;
+}
+
+.footer-logo span {
+  font-family: var(--font-primary);
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--secondary-color);
+}
+
+.footer-nav ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.footer-nav a {
+  color: var(--secondary-color);
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+  color: var(--primary-color);
+}
+
+.footer-social img {
+  width: 150px;
+}
+
+.footer-copyright {
+  text-align: center;
+  font-size: 0.9rem;
   color: #415e56;
 }
-.obciones2 {
-  position: relative; /* revisar el uso excesivo de position absolute */
-  width: 574px;
-  height: 28px;
+
+/* Media Queries */
+@media (max-width: 1024px) {
+  .hero .container,
+  .what-is-covid .container,
+  .prevention-item,
+  .reports-wrapper {
+      grid-template-columns: 1fr;
+      gap: 3rem;
+  }
+  
+  .hero-image,
+  .covid-image {
+      order: -1;
+  }
+  
+  .prevention-item.reverse {
+      direction: ltr;
+  }
+  
+  .reports-map {
+      order: 2;
+  }
 }
-.Overview2 {
-  position: absolute; /* no */
-  width: 100px;
-  height: 28px;
-  left: 0px;
-  font-family: 'Baloo Tamma 2', cursive;
-  font-size: 23px;
-  line-height: 28px;
-  color: #00402e;
+
+@media (max-width: 768px) {
+  .main-header .container {
+      flex-wrap: wrap;
+  }
+  
+  .main-nav {
+      position: fixed;
+      top: 70px;
+      left: 0;
+      width: 100%;
+      background: var(--light-color);
+      padding: 1rem 0;
+      transform: translateX(-100%);
+      transition: transform 0.3s ease;
+  }
+  
+  .main-nav.active {
+      transform: translateX(0);
+  }
+  
+  .main-nav ul {
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+  }
+  
+  .contact-btn {
+      display: none;
+  }
+  
+  .hamburger-menu {
+      display: flex;
+  }
+  
+  .hero {
+      padding: 6rem 0 3rem;
+  }
+  
+  .hero-title,
+  .section-title {
+      font-size: 2rem;
+  }
+  
+  .contagion-cards {
+      grid-template-columns: 1fr;
+  }
+  
+  .footer-content {
+      flex-direction: column;
+      gap: 2rem;
+  }
+  
+  .footer-nav ul {
+      flex-wrap: wrap;
+      justify-content: center;
+  }
 }
-.Symptoms2 {
-  position: absolute; /* no */
-  width: 100px;
-  height: 28px;
-  right: 330.5px;
-  font-family: 'Baloo Tamma 2', cursive;
-  font-size: 23px;
-  line-height: 28px;
-  color: #00402e;
-}
-.Prevention {
-  position: absolute; /* no */
-  width: 100px;
-  height: 28px;
-  left: 287px;
-  font-family: 'Baloo Tamma 2', cursive;
-  font-size: 23px;
-  line-height: 28px;
-  color: #00402e;
-}
-.Treatment {
-  position: absolute; /* no */
-  width: 100px;
-  height: 28px;
-  left: 430.5px;
-  font-family: 'Baloo Tamma 2', cursive;
-  font-size: 23px;
-  line-height: 28px;
-  color: #00402e;
+
+@media (max-width: 480px) {
+  .container {
+      width: 95%;
+  }
+  
+  .hero-title,
+  .section-title {
+      font-size: 1.8rem;
+  }
+  
+  .hero-subtitle,
+  .section-subtitle {
+      font-size: 1rem;
+  }
+  
+  .hero-description,
+  .section-description {
+      font-size: 1rem;
+  }
+  
+  .prevention-content h3 {
+      font-size: 1.5rem;
+  }
+  
+  .newsletter h2 {
+      font-size: 2rem;
+  }
+  
+  .newsletter-form {
+      flex-direction: column;
+  }
+  
+  .newsletter-form button {
+      width: 100%;
+  }
 }
